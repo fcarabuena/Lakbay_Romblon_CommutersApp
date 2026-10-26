@@ -1,0 +1,661 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "a1",
+      "lineId": "line_a",
+      "vesselName": "MV Sample Alpha",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "checkInMinutes": 90,
+      "delayAllowanceMinutes": 120,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "stops": [
+        {
+          "portId": "batangas_port",
+          "depart": "19:00",
+          "dayOffset": 0
+        },
+        {
+          "portId": "odiongan_port",
+          "arrive": "05:00",
+          "dayOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "lineId": "line_a",
+      "vesselName": "MV Sample Alpha",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "checkInMinutes": 90,
+      "delayAllowanceMinutes": 120,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "stops": [
+        {
+          "portId": "odiongan_port",
+          "depart": "20:00",
+          "dayOffset": 0
+        },
+        {
+          "portId": "batangas_port",
+          "arrive": "06:00",
+          "dayOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "lineId": "line_b",
+      "vesselName": "MV Sample Bravo",
+      "daysOfWeek": [
+        1,
+        3,
+        5
+      ],
+      "checkInMinutes": 90,
+      "delayAllowanceMinutes": 120,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "stops": [
+        {
+          "portId": "batangas_port",
+          "depart": "17:00",
+          "dayOffset": 0
+        },
+        {
+          "portId": "san_agustin_port",
+          "arrive": "03:00",
+          "depart": "04:00",
+          "dayOffset": 1
+        },
+        {
+          "portId": "romblon_port",
+          "arrive": "06:00",
+          "depart": "07:00",
+          "dayOffset": 1
+        },
+        {
+          "portId": "magdiwang_port",
+          "arrive": "09:30",
+          "dayOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "lineId": "line_b",
+      "vesselName": "MV Sample Bravo",
+      "daysOfWeek": [
+        2,
+        4,
+        6
+      ],
+      "checkInMinutes": 90,
+      "delayAllowanceMinutes": 120,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "stops": [
+        {
+          "portId": "magdiwang_port",
+          "depart": "12:00",
+          "dayOffset": 0
+        },
+        {
+          "portId": "romblon_port",
+          "arrive": "14:30",
+          "depart": "15:30",
+          "dayOffset": 0
+        },
+        {
+          "portId": "san_agustin_port",
+          "arrive": "17:30",
+          "depart": "18:30",
+          "dayOffset": 0
+        },
+        {
+          "portId": "batangas_port",
+          "arrive": "04:30",
+          "dayOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "c1",
+      "lineId": "line_c",
+      "vesselName": "MV Sample Charlie",
+      "daysOfWeek": [
+        2,
+        5
+      ],
+      "checkInMinutes": 90,
+      "delayAllowanceMinutes": 120,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "stops": [
+        {
+          "portId": "lucena_port",
+          "depart": "18:00",
+          "dayOffset": 0
+        },
+        {
+          "portId": "odiongan_port",
+          "arrive": "03:00",
+          "depart": "04:00",
+          "dayOffset": 1
+        },
+        {
+          "portId": "looc_port",
+          "arrive": "06:30",
+          "dayOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "lineId": "line_c",
+      "vesselName": "MV Sample Charlie",
+      "daysOfWeek": [
+        3,
+        6
+      ],
+      "checkInMinutes": 90,
+      "delayAllowanceMinutes": 120,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "stops": [
+        {
+          "portId": "looc_port",
+          "depart": "12:00",
+          "dayOffset": 0
+        },
+        {
+          "portId": "odiongan_port",
+          "arrive": "14:30",
+          "depart": "15:30",
+          "dayOffset": 0
+        },
+        {
+          "portId": "lucena_port",
+          "arrive": "00:30",
+          "dayOffset": 1
+        }
+      ]
+    },
+    {
+      "id": "sh_vdp10_lucena_banton",
+      "lineId": "starhorse",
+      "vesselName": "M/V Virgen de Peñafrancia X",
+      "daysOfWeek": [
+        2,
+        4,
+        7
+      ],
+      "stops": [
+        {
+          "portId": "lucena_port",
+          "depart": "16:00"
+        },
+        {
+          "portId": "banton_port"
+        },
+        {
+          "portId": "san_agustin_port"
+        },
+        {
+          "portId": "romblon_port"
+        }
+      ],
+      "timesToConfirm": true,
+      "note": {
+        "en": "Schedule subject to change without prior notice.",
+        "fil": "Maaaring magbago ang iskedyul nang walang paunang abiso."
+      },
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026 (Lucena departure 4:00 PM and days; arrival times not on the posters)",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      }
+    },
+    {
+      "id": "sh_vdp10_lucena_simara",
+      "lineId": "starhorse",
+      "vesselName": "M/V Virgen de Peñafrancia X",
+      "daysOfWeek": [
+        1,
+        3,
+        6
+      ],
+      "stops": [
+        {
+          "portId": "lucena_port",
+          "depart": "16:00"
+        },
+        {
+          "portId": "simara_port"
+        },
+        {
+          "portId": "san_agustin_port"
+        },
+        {
+          "portId": "romblon_port"
+        }
+      ],
+      "timesToConfirm": true,
+      "note": {
+        "en": "Schedule subject to change without prior notice.",
+        "fil": "Maaaring magbago ang iskedyul nang walang paunang abiso."
+      },
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026 (Lucena departure 4:00 PM and days; arrival times not on the posters)",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      }
+    },
+    {
+      "id": "sh_vdp10_lucena_friday",
+      "lineId": "starhorse",
+      "vesselName": "M/V Virgen de Peñafrancia X",
+      "daysOfWeek": [
+        5
+      ],
+      "stops": [
+        {
+          "portId": "lucena_port",
+          "depart": "16:00"
+        },
+        {
+          "portId": "san_agustin_port"
+        },
+        {
+          "portId": "romblon_port"
+        }
+      ],
+      "timesToConfirm": true,
+      "note": {
+        "en": "Schedule subject to change without prior notice.",
+        "fil": "Maaaring magbago ang iskedyul nang walang paunang abiso."
+      },
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026 (Lucena departure 4:00 PM and days; arrival times not on the posters)",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      }
+    },
+    {
+      "id": "sh_vdp10_return",
+      "lineId": "starhorse",
+      "vesselName": "M/V Virgen de Peñafrancia X",
+      "daysOfWeek": [],
+      "stops": [
+        {
+          "portId": "romblon_port"
+        },
+        {
+          "portId": "san_agustin_port"
+        },
+        {
+          "portId": "simara_port"
+        },
+        {
+          "portId": "banton_port"
+        },
+        {
+          "portId": "lucena_port"
+        }
+      ],
+      "timesToConfirm": true,
+      "note": {
+        "en": "Schedule subject to change without prior notice.",
+        "fil": "Maaaring magbago ang iskedyul nang walang paunang abiso."
+      },
+      "verification": {
+        "source": "Days and times not on the Starhorse posters – needs checking",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sh_vdp12_lucena_sibuyan",
+      "lineId": "starhorse",
+      "vesselName": "M/V Virgen de Peñafrancia XII",
+      "daysOfWeek": [],
+      "stops": [
+        {
+          "portId": "lucena_port"
+        },
+        {
+          "portId": "sibuyan_tbc_port"
+        }
+      ],
+      "timesToConfirm": true,
+      "note": {
+        "en": "Schedule subject to change without prior notice.",
+        "fil": "Maaaring magbago ang iskedyul nang walang paunang abiso."
+      },
+      "verification": {
+        "source": "Days and times not on the Starhorse posters – needs checking",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sh_vdp12_sibuyan_lucena",
+      "lineId": "starhorse",
+      "vesselName": "M/V Virgen de Peñafrancia XII",
+      "daysOfWeek": [],
+      "stops": [
+        {
+          "portId": "sibuyan_tbc_port"
+        },
+        {
+          "portId": "lucena_port"
+        }
+      ],
+      "timesToConfirm": true,
+      "note": {
+        "en": "Schedule subject to change without prior notice.",
+        "fil": "Maaaring magbago ang iskedyul nang walang paunang abiso."
+      },
+      "verification": {
+        "source": "Days and times not on the Starhorse posters – needs checking",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_a_batangas_romblon",
+      "lineId": "starlite",
+      "vesselName": "Starlite Ferries (vessel not named on the poster)",
+      "daysOfWeek": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "batangas_port",
+          "depart": "13:00"
+        },
+        {
+          "portId": "romblon_port",
+          "arrive": "23:00",
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 10 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 10 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_a_romblon_batangas",
+      "lineId": "starlite",
+      "vesselName": "Starlite Ferries (vessel not named on the poster)",
+      "daysOfWeek": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "romblon_port",
+          "depart": "22:00"
+        },
+        {
+          "portId": "batangas_port",
+          "arrive": "08:00",
+          "dayOffset": 1,
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 10 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 10 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_b_batangas_sibuyan",
+      "lineId": "starlite",
+      "vesselName": "Starlite Ferries (vessel not named on the poster)",
+      "daysOfWeek": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "batangas_port",
+          "depart": "13:00"
+        },
+        {
+          "portId": "sibuyan_tbc_port",
+          "arrive": "01:00",
+          "dayOffset": 1,
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 12 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 12 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_b_sibuyan_batangas",
+      "lineId": "starlite",
+      "vesselName": "Starlite Ferries (vessel not named on the poster)",
+      "daysOfWeek": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "sibuyan_tbc_port",
+          "depart": "19:00"
+        },
+        {
+          "portId": "batangas_port",
+          "arrive": "07:00",
+          "dayOffset": 1,
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 12 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 12 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_c_batangas_cajidiocan",
+      "lineId": "starlite",
+      "vesselName": "Starlite Resilience",
+      "daysOfWeek": [
+        1,
+        3,
+        5
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "batangas_port",
+          "depart": "15:00"
+        },
+        {
+          "portId": "cajidiocan_port",
+          "arrive": "03:00",
+          "dayOffset": 1,
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 12 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 12 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_c_cajidiocan_batangas",
+      "lineId": "starlite",
+      "vesselName": "Starlite Stella Maris",
+      "daysOfWeek": [
+        1,
+        3,
+        5
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "cajidiocan_port",
+          "depart": "18:00"
+        },
+        {
+          "portId": "batangas_port",
+          "arrive": "06:00",
+          "dayOffset": 1,
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 12 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 12 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_d_romblon_sibuyan",
+      "lineId": "starlite",
+      "vesselName": "Starlite Ferries (vessel not named on the poster)",
+      "daysOfWeek": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "romblon_port",
+          "depart": "02:00"
+        },
+        {
+          "portId": "sibuyan_tbc_port",
+          "arrive": "04:00",
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 2 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 2 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "sl_d_sibuyan_romblon",
+      "lineId": "starlite",
+      "vesselName": "Starlite Ferries (vessel not named on the poster)",
+      "daysOfWeek": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "checkInMinutes": 60,
+      "stops": [
+        {
+          "portId": "sibuyan_tbc_port",
+          "depart": "19:00"
+        },
+        {
+          "portId": "romblon_port",
+          "arrive": "21:00",
+          "estimated": true
+        }
+      ],
+      "note": {
+        "en": "Travel time about 2 hours (estimate). Days and times are from a ticket agent poster; confirm with Starlite before travelling.",
+        "fil": "Mga 2 oras ang biyahe (tantiya). Galing sa poster ng ticket agent ang araw at oras; kumpirmahin sa Starlite bago bumiyahe."
+      },
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph (days and times per agent poster; arrival times estimated)",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "dataVersion": 4,
+  "generatedAt": "2026-10-26",
+  "isPlaceholderData": true,
+  "discounts": {
+    "percent": {
+      "regular": 0,
+      "student": 20,
+      "senior": 20,
+      "pwd": 20
+    },
+    "verification": {
+      "source": "PLACEHOLDER: based on RA 11314 (students), RA 9994 (seniors), RA 10754 (PWD); confirm how each operator applies them",
+      "isPlaceholder": true,
+      "lastVerified": null
+    }
+  }
+}

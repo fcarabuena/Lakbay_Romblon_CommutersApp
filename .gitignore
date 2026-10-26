@@ -1,0 +1,48 @@
+# Build output and tool caches
+.dart_tool/
+build/
+**/build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.vscode/
+*.iml
+pubspec_overrides.yaml
+
+# Android machine-specific paths
+**/android/local.properties
+**/android/.gradle/
+
+# Signing secrets — never commit
+**/android/key.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+
+# Secrets and credentials
+.env
+.env.*
+*.env
+**/*service-account*.json
+**/*serviceAccount*.json
+**/*-firebase-adminsdk-*.json
+*.pem
+*.p12
+
+# Firebase: the app config (firebase_options.dart, google-services.json) is
+# fine to commit, as access is controlled by the security rules. The CLI's
+# local cache is not.
+.firebase/
+
+# Node (Firebase functions and rule tests)
+node_modules/
+
+# Firebase CLI and emulator logs
+firebase-debug*.log
+firestore-debug.log
+storage-debug.log
+database-debug.log
+pubsub-debug.log
+ui-debug.log
+*.log

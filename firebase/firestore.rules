@@ -1,0 +1,139 @@
+rules_version = '2';
+
+// Lakbay Romblon security rules. Tested in firebase/rules-test.
+//
+// - Travel data, advisories and config: anyone can read; admins and editors
+//   write, and every write must come with an audit_log entry in the same batch.
+// - admins: only admins manage users (roles "admin" and "editor").
+// - audit_log: staff append; nobody edits; only admins may delete entries.
+// - reports: anyone signed in (anonymous is fine) may file up to 10 a day
+//   using ids "<uid>_<utcDay>_<1..10>"; staff review them.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function staffPath() {
+      return /databases/$(database)/documents/admins/$(request.auth.uid);
+    }
+
+    function isStaff() {
+      return signedIn()
+        && exists(staffPath())
+        && get(staffPath()).data.role in ['admin', 'editor'];
+    }
+
+    function isAdmin() {
+      return isStaff() && get(staffPath()).data.role == 'admin';
+    }
+
+    function isTravelCollection(c) {
+      return c in [
+        'municipalities', 'ports', 'bus_terminals', 'hubs', 'shipping_lines',
+        'voyages', 'ship_fares', 'bus_operators', 'bus_routes', 'local_rides',
+        'checklists', 'guides', 'hotlines', 'safety_tips', 'advisories'
+      ];
+    }
+
+    // A staff write stamped with server time and its author, whose audit
+    // entry (named by auditId) is created in the same batch for this doc.
+    function isAuditedWrite(collection, docId) {
+      let d = request.resource.data;
+      let audit = /databases/$(database)/documents/audit_log/$(d.auditId);
+      return isStaff()
+        && d.updatedAt == request.time
+        && d.updatedBy == request.auth.uid
+        && d.auditId is string
+        && !exists(audit)
+        && existsAfter(audit)
+        && getAfter(audit).data.collection == collection
+        && getAfter(audit).data.docId == docId;
+    }
+
+    match /{collection}/{docId} {
+      allow read: if isTravelCollection(collection);
+      allow create, update: if isTravelCollection(collection)
+        && isAuditedWrite(collection, docId);
+      // Deletions are soft ("deleted": true) so they reach phones on sync.
+      allow delete: if false;
+    }
+
+    match /config/{docId} {
+      allow read: if true;
+      allow create, update: if isAuditedWrite('config', docId);
+      allow delete: if false;
+    }
+
+    match /admins/{uid} {
+      allow read: if isAdmin() || (signedIn() && request.auth.uid == uid);
+      allow create, update: if isAdmin()
+        && request.resource.data.role in ['admin', 'editor']
+        && request.resource.data.email is string;
+      // An admin cannot remove themselves (so there is always one admin).
+      allow delete: if isAdmin() && uid != request.auth.uid;
+    }
+
+    match /audit_log/{entryId} {
+      allow read: if isStaff();
+      allow create: if isStaff()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.at == request.time
+        && request.resource.data.action in ['create', 'update', 'delete', 'review', 'users']
+        && request.resource.data.collection is string
+        && request.resource.data.docId is string
+        && request.resource.data.keys().hasOnly(
+             ['uid', 'email', 'collection', 'docId', 'action', 'before', 'after', 'at', 'reportId', 'note']);
+      allow update: if false;
+      allow delete: if isAdmin();
+    }
+
+    match /reports/{reportId} {
+      // Must match ReportLimits in packages/core/lib/src/models/report.dart.
+      function validId() {
+        let parts = reportId.split('_');
+        let today = math.floor(request.time.toMillis() / 86400000);
+        return parts.size() == 3
+          && parts[0] == request.auth.uid
+          && parts[1].matches('^[0-9]+$')
+          && parts[2].matches('^([1-9]|10)$')
+          // Allow a day either way for phones with a wrong clock or time zone.
+          && int(parts[1]) >= today - 1
+          && int(parts[1]) <= today + 1;
+      }
+
+      function validSubmission() {
+        let d = request.resource.data;
+        return d.keys().hasOnly([
+            'kind', 'targetCollection', 'targetId', 'targetLabel',
+            'suggestedValue', 'note', 'language', 'status', 'reporterUid',
+            'appVersion', 'submittedAt'])
+          && d.keys().hasAll(['kind', 'status', 'reporterUid', 'submittedAt'])
+          && d.kind in ['fareChange', 'scheduleChange', 'delayOrCancellation', 'wrongInfo', 'other']
+          && d.status == 'pending'
+          && d.reporterUid == request.auth.uid
+          && d.submittedAt == request.time
+          && d.get('targetCollection', '') is string && d.get('targetCollection', '').size() <= 40
+          && d.get('targetId', '') is string && d.get('targetId', '').size() <= 200
+          && d.get('targetLabel', '') is string && d.get('targetLabel', '').size() <= 120
+          && d.get('suggestedValue', '') is string && d.get('suggestedValue', '').size() <= 200
+          && d.get('note', '') is string && d.get('note', '').size() <= 1000
+          && (d.get('suggestedValue', '').size() > 0 || d.get('note', '').size() > 0)
+          && d.get('language', 'en') is string && d.get('language', 'en').size() <= 5
+          && d.get('appVersion', '') is string && d.get('appVersion', '').size() <= 40;
+      }
+
+      allow create: if signedIn() && validId() && validSubmission();
+      allow read: if isStaff()
+        || (signedIn() && resource.data.reporterUid == request.auth.uid);
+      allow update: if isStaff()
+        && request.resource.data.diff(resource.data).affectedKeys()
+             .hasOnly(['status', 'reviewedBy', 'reviewedAt', 'rejectReason', 'resolutionAuditId'])
+        && request.resource.data.status in ['pending', 'approved', 'rejected']
+        && request.resource.data.reviewedBy == request.auth.uid
+        && request.resource.data.reviewedAt == request.time;
+      allow delete: if isAdmin();
+    }
+  }
+}

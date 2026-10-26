@@ -1,0 +1,20 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "bus_1",
+      "name": "Sample Bus Co. 1",
+      "isPlaceholder": true
+    },
+    {
+      "id": "bus_2",
+      "name": "Sample Bus Co. 2",
+      "isPlaceholder": true
+    },
+    {
+      "id": "bus_3",
+      "name": "Sample Bus Co. 3",
+      "isPlaceholder": true
+    }
+  ]
+}

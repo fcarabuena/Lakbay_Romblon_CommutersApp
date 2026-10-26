@@ -1,0 +1,554 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "first_timer_to_manila",
+      "direction": "toManila",
+      "phases": [
+        {
+          "id": "prepare",
+          "title": {
+            "en": "Before you leave home",
+            "fil": "Bago umalis ng bahay"
+          },
+          "items": [
+            {
+              "id": "bring_id",
+              "text": {
+                "en": "Bring a valid government ID",
+                "fil": "Magdala ng valid na government ID"
+              },
+              "detail": {
+                "en": "The name on your ticket must match your ID. Students, seniors and PWDs: bring the ID that gives you a discount.",
+                "fil": "Dapat tugma ang pangalan sa tiket at sa ID. Mga estudyante, senior at PWD: dalhin ang ID para sa diskwento."
+              }
+            },
+            {
+              "id": "bring_cash",
+              "text": {
+                "en": "Bring cash in small bills",
+                "fil": "Magdala ng baryang pera o maliliit na bill"
+              },
+              "detail": {
+                "en": "Tricycle and jeepney drivers often have no change for ₱500 or ₱1,000 bills.",
+                "fil": "Kadalasang walang panukli ang mga tricycle at jeep para sa ₱500 o ₱1,000."
+              }
+            },
+            {
+              "id": "charge_phone",
+              "text": {
+                "en": "Charge your phone and power bank",
+                "fil": "I-charge ang cellphone at power bank"
+              }
+            },
+            {
+              "id": "save_contacts",
+              "text": {
+                "en": "Save family contacts and the app's emergency numbers",
+                "fil": "I-save ang numero ng pamilya at ang mga emergency number sa app"
+              }
+            },
+            {
+              "id": "motion_sickness",
+              "text": {
+                "en": "Pack motion sickness medicine if you get seasick",
+                "fil": "Magdala ng gamot sa hilo kung nahihilo ka sa biyahe"
+              },
+              "detail": {
+                "en": "Take it about 30 minutes before boarding.",
+                "fil": "Inumin mga 30 minuto bago sumakay."
+              }
+            },
+            {
+              "id": "jacket_snacks",
+              "text": {
+                "en": "Pack a jacket, water and snacks",
+                "fil": "Magdala ng jacket, tubig at baon"
+              },
+              "detail": {
+                "en": "Ship cabins can be cold at night.",
+                "fil": "Maaaring malamig sa loob ng barko sa gabi."
+              }
+            },
+            {
+              "id": "check_advisory",
+              "text": {
+                "en": "Check for weather or Coast Guard advisories before you leave",
+                "fil": "Tingnan ang abiso ng panahon o ng Coast Guard bago umalis"
+              },
+              "detail": {
+                "en": "Trips are cancelled when the sea is rough. A cancelled trip is for your safety.",
+                "fil": "Kinakansela ang biyahe kapag malakas ang alon. Para sa inyong kaligtasan ang pagkansela."
+              }
+            },
+            {
+              "id": "buy_ticket",
+              "text": {
+                "en": "Know where you will buy your ship ticket",
+                "fil": "Alamin kung saan bibili ng tiket ng barko"
+              },
+              "detail": {
+                "en": "Buy only at the official ticket office or an authorized outlet, and keep the official receipt.",
+                "fil": "Bumili lamang sa opisyal na ticket office o awtorisadong outlet, at itago ang opisyal na resibo."
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "Next you will travel from your town to the pier.",
+            "fil": "Susunod, bibiyahe ka mula sa inyong bayan papunta sa pantalan."
+          }
+        },
+        {
+          "id": "to_pier",
+          "title": {
+            "en": "Going to the pier",
+            "fil": "Papunta sa pantalan"
+          },
+          "legSlot": "beforeShip",
+          "items": [
+            {
+              "id": "agree_fare",
+              "text": {
+                "en": "Agree on the fare before the ride if it is a special trip",
+                "fil": "Pagkasunduan ang pamasahe bago sumakay kung special trip"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "At the pier you will pay the terminal fee and check in.",
+            "fil": "Sa pantalan, magbabayad ka ng terminal fee at magche-check in."
+          }
+        },
+        {
+          "id": "at_pier",
+          "title": {
+            "en": "At the pier",
+            "fil": "Sa pantalan"
+          },
+          "items": [
+            {
+              "id": "arrive_early",
+              "text": {
+                "en": "Arrive early for check-in",
+                "fil": "Dumating nang maaga para sa check-in"
+              },
+              "detail": {
+                "en": "Ships close check-in before departure. Late passengers are left behind.",
+                "fil": "Isinasara ang check-in bago umalis ang barko. Naiiwan ang mga nahuhuli."
+              }
+            },
+            {
+              "id": "pay_terminal_fee",
+              "text": {
+                "en": "Pay the terminal fee and keep the receipt",
+                "fil": "Bayaran ang terminal fee at itago ang resibo"
+              },
+              "detail": {
+                "en": "You may be asked for it at the gate.",
+                "fil": "Maaaring hingin ito sa gate."
+              }
+            },
+            {
+              "id": "baggage",
+              "text": {
+                "en": "Check baggage rules with the shipping line",
+                "fil": "Alamin ang patakaran sa bagahe ng shipping line"
+              },
+              "detail": {
+                "en": "Heavy or large bags may cost extra. Never carry flammables, fuel or sharp tools.",
+                "fil": "Maaaring may dagdag na bayad ang mabibigat o malalaking bag. Bawal magdala ng madaling magliyab, gasolina o matatalim na gamit."
+              }
+            },
+            {
+              "id": "label_bags",
+              "text": {
+                "en": "Put your name and phone number on your bags",
+                "fil": "Lagyan ng pangalan at numero ng telepono ang inyong mga bag"
+              }
+            },
+            {
+              "id": "listen_boarding",
+              "text": {
+                "en": "Listen for the boarding call and show your ticket and ID",
+                "fil": "Makinig sa tawag para sumakay at ipakita ang tiket at ID"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "After boarding, the ship sails to the mainland port.",
+            "fil": "Pagkasakay, maglalayag ang barko papunta sa pantalan sa Luzon."
+          }
+        },
+        {
+          "id": "on_ship",
+          "title": {
+            "en": "On the ship",
+            "fil": "Sa barko"
+          },
+          "legSlot": "ship",
+          "items": [
+            {
+              "id": "find_seat",
+              "text": {
+                "en": "Find your assigned seat or bunk",
+                "fil": "Hanapin ang nakatalagang upuan o higaan"
+              }
+            },
+            {
+              "id": "life_jackets",
+              "text": {
+                "en": "Find the life jackets and emergency exits",
+                "fil": "Hanapin ang mga life jacket at emergency exit"
+              },
+              "detail": {
+                "en": "Watch the safety briefing.",
+                "fil": "Panoorin ang safety briefing."
+              }
+            },
+            {
+              "id": "secure_valuables",
+              "text": {
+                "en": "Keep your phone, money and ID with you at all times",
+                "fil": "Laging dala ang cellphone, pera at ID"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "When the ship docks, wait for the announcement before getting off.",
+            "fil": "Pagdaong ng barko, hintayin ang anunsyo bago bumaba."
+          }
+        },
+        {
+          "id": "to_manila",
+          "title": {
+            "en": "From the port to Manila",
+            "fil": "Mula sa pantalan papuntang Maynila"
+          },
+          "legSlot": "afterShip",
+          "items": [
+            {
+              "id": "official_bus",
+              "text": {
+                "en": "Ride only marked buses from the official terminal",
+                "fil": "Sumakay lamang sa may markang bus mula sa opisyal na terminal"
+              },
+              "detail": {
+                "en": "Ignore people offering \"faster\" rides or asking for fees outside the terminal.",
+                "fil": "Huwag pansinin ang mga nag-aalok ng \"mas mabilis\" na sakay o humihingi ng bayad sa labas ng terminal."
+              }
+            },
+            {
+              "id": "bus_ticket",
+              "text": {
+                "en": "Keep your bus ticket until you get off",
+                "fil": "Itago ang tiket ng bus hanggang makababa"
+              }
+            },
+            {
+              "id": "tell_driver",
+              "text": {
+                "en": "Tell the conductor where you will get off",
+                "fil": "Sabihin sa konduktor kung saan ka bababa"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "The bus drops you at your stop in Metro Manila.",
+            "fil": "Ibababa ka ng bus sa inyong hintuan sa Metro Manila."
+          }
+        },
+        {
+          "id": "arrival",
+          "title": {
+            "en": "You have arrived",
+            "fil": "Nakarating ka na"
+          },
+          "items": [
+            {
+              "id": "tell_family",
+              "text": {
+                "en": "Tell your family you arrived safely",
+                "fil": "Ipaalam sa pamilya na ligtas kang nakarating"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "Ingat! Have a safe stay in Manila.",
+            "fil": "Ingat! Maging ligtas sa Maynila."
+          }
+        }
+      ]
+    },
+    {
+      "id": "first_timer_to_romblon",
+      "direction": "toRomblon",
+      "phases": [
+        {
+          "id": "prepare",
+          "title": {
+            "en": "Before you leave",
+            "fil": "Bago umalis"
+          },
+          "items": [
+            {
+              "id": "bring_id",
+              "text": {
+                "en": "Bring a valid government ID",
+                "fil": "Magdala ng valid na government ID"
+              },
+              "detail": {
+                "en": "The name on your ticket must match your ID. Students, seniors and PWDs: bring the ID that gives you a discount.",
+                "fil": "Dapat tugma ang pangalan sa tiket at sa ID. Mga estudyante, senior at PWD: dalhin ang ID para sa diskwento."
+              }
+            },
+            {
+              "id": "bring_cash",
+              "text": {
+                "en": "Bring cash in small bills",
+                "fil": "Magdala ng baryang pera o maliliit na bill"
+              },
+              "detail": {
+                "en": "Tricycle and jeepney drivers often have no change for ₱500 or ₱1,000 bills.",
+                "fil": "Kadalasang walang panukli ang mga tricycle at jeep para sa ₱500 o ₱1,000."
+              }
+            },
+            {
+              "id": "charge_phone",
+              "text": {
+                "en": "Charge your phone and power bank",
+                "fil": "I-charge ang cellphone at power bank"
+              }
+            },
+            {
+              "id": "save_contacts",
+              "text": {
+                "en": "Save family contacts and the app's emergency numbers",
+                "fil": "I-save ang numero ng pamilya at ang mga emergency number sa app"
+              }
+            },
+            {
+              "id": "motion_sickness",
+              "text": {
+                "en": "Pack motion sickness medicine if you get seasick",
+                "fil": "Magdala ng gamot sa hilo kung nahihilo ka sa biyahe"
+              },
+              "detail": {
+                "en": "Take it about 30 minutes before boarding.",
+                "fil": "Inumin mga 30 minuto bago sumakay."
+              }
+            },
+            {
+              "id": "jacket_snacks",
+              "text": {
+                "en": "Pack a jacket, water and snacks",
+                "fil": "Magdala ng jacket, tubig at baon"
+              },
+              "detail": {
+                "en": "Ship cabins can be cold at night.",
+                "fil": "Maaaring malamig sa loob ng barko sa gabi."
+              }
+            },
+            {
+              "id": "check_advisory",
+              "text": {
+                "en": "Check for weather or Coast Guard advisories before you leave",
+                "fil": "Tingnan ang abiso ng panahon o ng Coast Guard bago umalis"
+              },
+              "detail": {
+                "en": "Trips are cancelled when the sea is rough. A cancelled trip is for your safety.",
+                "fil": "Kinakansela ang biyahe kapag malakas ang alon. Para sa inyong kaligtasan ang pagkansela."
+              }
+            },
+            {
+              "id": "buy_ticket",
+              "text": {
+                "en": "Know where you will buy your ship ticket",
+                "fil": "Alamin kung saan bibili ng tiket ng barko"
+              },
+              "detail": {
+                "en": "Buy only at the official ticket office or an authorized outlet, and keep the official receipt.",
+                "fil": "Bumili lamang sa opisyal na ticket office o awtorisadong outlet, at itago ang opisyal na resibo."
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "Next you will take the bus to the port.",
+            "fil": "Susunod, sasakay ka ng bus papunta sa pantalan."
+          }
+        },
+        {
+          "id": "to_port",
+          "title": {
+            "en": "Going to the port",
+            "fil": "Papunta sa pantalan"
+          },
+          "legSlot": "beforeShip",
+          "items": [
+            {
+              "id": "leave_early",
+              "text": {
+                "en": "Leave early. Traffic in Manila can add hours",
+                "fil": "Umalis nang maaga. Maaaring magdagdag ng ilang oras ang trapik sa Maynila"
+              },
+              "detail": {
+                "en": "Plan to reach the port well before check-in closes.",
+                "fil": "Planuhing makarating sa pantalan bago magsara ang check-in."
+              }
+            },
+            {
+              "id": "official_bus",
+              "text": {
+                "en": "Ride only marked buses from the official terminal",
+                "fil": "Sumakay lamang sa may markang bus mula sa opisyal na terminal"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "At the port you will pay the terminal fee and check in.",
+            "fil": "Sa pantalan, magbabayad ka ng terminal fee at magche-check in."
+          }
+        },
+        {
+          "id": "at_port",
+          "title": {
+            "en": "At the port",
+            "fil": "Sa pantalan"
+          },
+          "items": [
+            {
+              "id": "arrive_early",
+              "text": {
+                "en": "Arrive early for check-in",
+                "fil": "Dumating nang maaga para sa check-in"
+              },
+              "detail": {
+                "en": "Ships close check-in before departure. Late passengers are left behind.",
+                "fil": "Isinasara ang check-in bago umalis ang barko. Naiiwan ang mga nahuhuli."
+              }
+            },
+            {
+              "id": "pay_terminal_fee",
+              "text": {
+                "en": "Pay the terminal fee and keep the receipt",
+                "fil": "Bayaran ang terminal fee at itago ang resibo"
+              },
+              "detail": {
+                "en": "You may be asked for it at the gate.",
+                "fil": "Maaaring hingin ito sa gate."
+              }
+            },
+            {
+              "id": "baggage",
+              "text": {
+                "en": "Check baggage rules with the shipping line",
+                "fil": "Alamin ang patakaran sa bagahe ng shipping line"
+              },
+              "detail": {
+                "en": "Heavy or large bags may cost extra. Never carry flammables, fuel or sharp tools.",
+                "fil": "Maaaring may dagdag na bayad ang mabibigat o malalaking bag. Bawal magdala ng madaling magliyab, gasolina o matatalim na gamit."
+              }
+            },
+            {
+              "id": "label_bags",
+              "text": {
+                "en": "Put your name and phone number on your bags",
+                "fil": "Lagyan ng pangalan at numero ng telepono ang inyong mga bag"
+              }
+            },
+            {
+              "id": "listen_boarding",
+              "text": {
+                "en": "Listen for the boarding call and show your ticket and ID",
+                "fil": "Makinig sa tawag para sumakay at ipakita ang tiket at ID"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "After boarding, the ship sails to Romblon.",
+            "fil": "Pagkasakay, maglalayag ang barko papuntang Romblon."
+          }
+        },
+        {
+          "id": "on_ship",
+          "title": {
+            "en": "On the ship",
+            "fil": "Sa barko"
+          },
+          "legSlot": "ship",
+          "items": [
+            {
+              "id": "find_seat",
+              "text": {
+                "en": "Find your assigned seat or bunk",
+                "fil": "Hanapin ang nakatalagang upuan o higaan"
+              }
+            },
+            {
+              "id": "life_jackets",
+              "text": {
+                "en": "Find the life jackets and emergency exits",
+                "fil": "Hanapin ang mga life jacket at emergency exit"
+              },
+              "detail": {
+                "en": "Watch the safety briefing.",
+                "fil": "Panoorin ang safety briefing."
+              }
+            },
+            {
+              "id": "secure_valuables",
+              "text": {
+                "en": "Keep your phone, money and ID with you at all times",
+                "fil": "Laging dala ang cellphone, pera at ID"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "When the ship docks, take a local ride home.",
+            "fil": "Pagdaong ng barko, sumakay pauwi."
+          }
+        },
+        {
+          "id": "home",
+          "title": {
+            "en": "Going home",
+            "fil": "Pauwi"
+          },
+          "legSlot": "afterShip",
+          "items": [
+            {
+              "id": "agree_fare",
+              "text": {
+                "en": "Agree on the fare before the ride if it is a special trip",
+                "fil": "Pagkasunduan ang pamasahe bago sumakay kung special trip"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "Welcome home!",
+            "fil": "Maligayang pagbabalik!"
+          }
+        },
+        {
+          "id": "arrival",
+          "title": {
+            "en": "You're home",
+            "fil": "Nakauwi ka na"
+          },
+          "items": [
+            {
+              "id": "tell_family",
+              "text": {
+                "en": "Tell your family you arrived safely",
+                "fil": "Ipaalam sa pamilya na ligtas kang nakarating"
+              }
+            }
+          ],
+          "whatHappensNext": {
+            "en": "Welcome home! Rest well.",
+            "fil": "Maligayang pagbabalik! Magpahinga nang mabuti."
+          }
+        }
+      ]
+    }
+  ]
+}

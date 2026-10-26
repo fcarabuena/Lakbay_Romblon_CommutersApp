@@ -1,0 +1,946 @@
+{
+  "_note": "Every entry must be verified before release (see docs/hotlines-to-verify.md). Empty numbers show as 'Number needed'. Never guess an emergency number.",
+  "items": [
+    {
+      "id": "national_911",
+      "agency": "Emergency 911",
+      "label": {
+        "en": "National emergency hotline (police, fire, medical)",
+        "fil": "Pambansang emergency hotline (pulis, bumbero, medikal)"
+      },
+      "scope": "national",
+      "numbers": [
+        "911"
+      ],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "pcg_national",
+      "agency": "Philippine Coast Guard",
+      "label": {
+        "en": "Coast Guard national command center",
+        "fil": "Pambansang command center ng Coast Guard"
+      },
+      "scope": "national",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "romblon_pdrrmo",
+      "agency": "Romblon PDRRMO",
+      "label": {
+        "en": "Provincial disaster risk reduction office",
+        "fil": "Tanggapan ng probinsya para sa sakuna (PDRRMO)"
+      },
+      "scope": "province",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "romblon_ppo",
+      "agency": "Romblon Police Provincial Office",
+      "label": {
+        "en": "Provincial police",
+        "fil": "Pulisya ng probinsya"
+      },
+      "scope": "province",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "pcg_romblon",
+      "agency": "Coast Guard Station Romblon",
+      "label": {
+        "en": "Coast Guard station for Romblon",
+        "fil": "Coast Guard station ng Romblon"
+      },
+      "scope": "province",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "odiongan_port_helpdesk",
+      "agency": "Odiongan Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "odiongan_port"
+    },
+    {
+      "id": "odiongan_port_pcg",
+      "agency": "Coast Guard at Odiongan Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "odiongan_port"
+    },
+    {
+      "id": "san_agustin_port_helpdesk",
+      "agency": "San Agustin Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "san_agustin_port"
+    },
+    {
+      "id": "san_agustin_port_pcg",
+      "agency": "Coast Guard at San Agustin Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "san_agustin_port"
+    },
+    {
+      "id": "romblon_port_helpdesk",
+      "agency": "Romblon Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "romblon_port"
+    },
+    {
+      "id": "romblon_port_pcg",
+      "agency": "Coast Guard at Romblon Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "romblon_port"
+    },
+    {
+      "id": "magdiwang_port_helpdesk",
+      "agency": "Magdiwang Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "magdiwang_port"
+    },
+    {
+      "id": "magdiwang_port_pcg",
+      "agency": "Coast Guard at Magdiwang Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "magdiwang_port"
+    },
+    {
+      "id": "looc_port_helpdesk",
+      "agency": "Looc Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "looc_port"
+    },
+    {
+      "id": "looc_port_pcg",
+      "agency": "Coast Guard at Looc Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "looc_port"
+    },
+    {
+      "id": "batangas_port_helpdesk",
+      "agency": "Batangas Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "batangas_port"
+    },
+    {
+      "id": "batangas_port_pcg",
+      "agency": "Coast Guard at Batangas Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "batangas_port"
+    },
+    {
+      "id": "lucena_port_helpdesk",
+      "agency": "Lucena Port (Dalahican) help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "lucena_port"
+    },
+    {
+      "id": "lucena_port_pcg",
+      "agency": "Coast Guard at Lucena Port (Dalahican)",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "lucena_port"
+    },
+    {
+      "id": "alcantara_mdrrmo",
+      "agency": "Alcantara MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "alcantara"
+    },
+    {
+      "id": "alcantara_police",
+      "agency": "Alcantara Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "alcantara"
+    },
+    {
+      "id": "banton_mdrrmo",
+      "agency": "Banton MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "banton"
+    },
+    {
+      "id": "banton_police",
+      "agency": "Banton Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "banton"
+    },
+    {
+      "id": "cajidiocan_mdrrmo",
+      "agency": "Cajidiocan MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "cajidiocan"
+    },
+    {
+      "id": "cajidiocan_police",
+      "agency": "Cajidiocan Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "cajidiocan"
+    },
+    {
+      "id": "calatrava_mdrrmo",
+      "agency": "Calatrava MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "calatrava"
+    },
+    {
+      "id": "calatrava_police",
+      "agency": "Calatrava Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "calatrava"
+    },
+    {
+      "id": "concepcion_mdrrmo",
+      "agency": "Concepcion MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "concepcion"
+    },
+    {
+      "id": "concepcion_police",
+      "agency": "Concepcion Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "concepcion"
+    },
+    {
+      "id": "corcuera_mdrrmo",
+      "agency": "Corcuera MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "corcuera"
+    },
+    {
+      "id": "corcuera_police",
+      "agency": "Corcuera Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "corcuera"
+    },
+    {
+      "id": "ferrol_mdrrmo",
+      "agency": "Ferrol MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "ferrol"
+    },
+    {
+      "id": "ferrol_police",
+      "agency": "Ferrol Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "ferrol"
+    },
+    {
+      "id": "looc_mdrrmo",
+      "agency": "Looc MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "looc"
+    },
+    {
+      "id": "looc_police",
+      "agency": "Looc Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "looc"
+    },
+    {
+      "id": "magdiwang_mdrrmo",
+      "agency": "Magdiwang MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "magdiwang"
+    },
+    {
+      "id": "magdiwang_police",
+      "agency": "Magdiwang Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "magdiwang"
+    },
+    {
+      "id": "odiongan_mdrrmo",
+      "agency": "Odiongan MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "odiongan"
+    },
+    {
+      "id": "odiongan_police",
+      "agency": "Odiongan Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "odiongan"
+    },
+    {
+      "id": "romblon_mdrrmo",
+      "agency": "Romblon MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "romblon"
+    },
+    {
+      "id": "romblon_police",
+      "agency": "Romblon Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "romblon"
+    },
+    {
+      "id": "san_agustin_mdrrmo",
+      "agency": "San Agustin MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_agustin"
+    },
+    {
+      "id": "san_agustin_police",
+      "agency": "San Agustin Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_agustin"
+    },
+    {
+      "id": "san_andres_mdrrmo",
+      "agency": "San Andres MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_andres"
+    },
+    {
+      "id": "san_andres_police",
+      "agency": "San Andres Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_andres"
+    },
+    {
+      "id": "san_fernando_mdrrmo",
+      "agency": "San Fernando MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_fernando"
+    },
+    {
+      "id": "san_fernando_police",
+      "agency": "San Fernando Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_fernando"
+    },
+    {
+      "id": "san_jose_mdrrmo",
+      "agency": "San Jose MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_jose"
+    },
+    {
+      "id": "san_jose_police",
+      "agency": "San Jose Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "san_jose"
+    },
+    {
+      "id": "santa_fe_mdrrmo",
+      "agency": "Santa Fe MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "santa_fe"
+    },
+    {
+      "id": "santa_fe_police",
+      "agency": "Santa Fe Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "santa_fe"
+    },
+    {
+      "id": "santa_maria_mdrrmo",
+      "agency": "Santa Maria MDRRMO",
+      "label": {
+        "en": "Municipal disaster risk reduction office",
+        "fil": "Tanggapan ng bayan para sa sakuna (MDRRMO)"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "santa_maria"
+    },
+    {
+      "id": "santa_maria_police",
+      "agency": "Santa Maria Municipal Police Station",
+      "label": {
+        "en": "Municipal police station",
+        "fil": "Himpilan ng pulisya ng bayan"
+      },
+      "scope": "municipality",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "municipalityId": "santa_maria"
+    },
+    {
+      "id": "banton_port_helpdesk",
+      "agency": "Banton Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "banton_port"
+    },
+    {
+      "id": "banton_port_pcg",
+      "agency": "Coast Guard at Banton Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "banton_port"
+    },
+    {
+      "id": "simara_port_helpdesk",
+      "agency": "Simara Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "simara_port"
+    },
+    {
+      "id": "simara_port_pcg",
+      "agency": "Coast Guard at Simara Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "simara_port"
+    },
+    {
+      "id": "cajidiocan_port_helpdesk",
+      "agency": "Cajidiocan Port help desk",
+      "label": {
+        "en": "Port passenger help desk",
+        "fil": "Help desk ng pasahero sa pantalan"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "cajidiocan_port"
+    },
+    {
+      "id": "cajidiocan_port_pcg",
+      "agency": "Coast Guard at Cajidiocan Port",
+      "label": {
+        "en": "Coast Guard unit at this port",
+        "fil": "Coast Guard sa pantalang ito"
+      },
+      "scope": "port",
+      "numbers": [],
+      "verification": {
+        "source": "PLACEHOLDER: verify before release",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "portId": "cajidiocan_port"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "cubao",
+      "name": "Cubao",
+      "area": "Quezon City",
+      "location": {
+        "lat": 14.62,
+        "lng": 121.05
+      },
+      "description": "Bus terminals along EDSA near Araneta City."
+    },
+    {
+      "id": "buendia",
+      "name": "Buendia / Pasay",
+      "area": "Pasay City",
+      "location": {
+        "lat": 14.55,
+        "lng": 121.0
+      },
+      "description": "Bus terminals along EDSA and Taft at Buendia (Gil Puyat)."
+    },
+    {
+      "id": "pitx",
+      "name": "PITX",
+      "area": "Parañaque City",
+      "location": {
+        "lat": 14.51,
+        "lng": 120.99
+      },
+      "description": "Parañaque Integrated Terminal Exchange."
+    }
+  ]
+}

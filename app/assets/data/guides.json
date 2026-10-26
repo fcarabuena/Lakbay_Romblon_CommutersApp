@@ -1,0 +1,1404 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Layouts are illustrative drawings, not surveyed plans. Tips are general advice. Replace layouts via the admin panel (see docs/guide-layout-format.md).",
+  "items": [
+    {
+      "id": "guide_odiongan_port",
+      "placeId": "odiongan_port",
+      "summary": {
+        "en": "A small provincial pier.",
+        "fil": "Isang maliit na pantalan sa probinsya."
+      },
+      "tips": [
+        {
+          "en": "Buy your ship ticket at the shipping line's ticket office inside the port. Keep the official receipt.",
+          "fil": "Bumili ng tiket ng barko sa ticket office ng shipping line sa loob ng pantalan. Itago ang opisyal na resibo."
+        },
+        {
+          "en": "Pay the terminal fee at the port cashier before going to the gate.",
+          "fil": "Bayaran ang terminal fee sa cashier ng pantalan bago pumunta sa gate."
+        },
+        {
+          "en": "If you are unsure where to board, ask port staff or Coast Guard personnel.",
+          "fil": "Kung hindi sigurado kung saan sasakay, magtanong sa kawani ng pantalan o sa Coast Guard."
+        },
+        {
+          "en": "Tricycles wait outside the port entrance. Agree on the fare before riding.",
+          "fil": "Naghihintay ang mga tricycle sa labas ng pasukan ng pantalan. Pagkasunduan muna ang pamasahe bago sumakay."
+        }
+      ],
+      "layout": {
+        "width": 12,
+        "height": 8,
+        "seaSide": "top",
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "berth",
+            "kind": "boarding",
+            "label": {
+              "en": "Ship berth",
+              "fil": "Daungan ng barko"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1.5
+          },
+          {
+            "id": "gate",
+            "kind": "gate",
+            "label": {
+              "en": "Boarding gate",
+              "fil": "Gate papasakay"
+            },
+            "x": 4,
+            "y": 1.5,
+            "w": 4,
+            "h": 1
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Waiting area",
+              "fil": "Hintayan"
+            },
+            "x": 1,
+            "y": 2.5,
+            "w": 7,
+            "h": 2.5
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 8.5,
+            "y": 2.5,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Ticket office",
+              "fil": "Bilihan ng tiket"
+            },
+            "x": 8.5,
+            "y": 4.3,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "cashier",
+            "kind": "office",
+            "label": {
+              "en": "Terminal fee cashier",
+              "fil": "Bayaran ng terminal fee"
+            },
+            "x": 1,
+            "y": 5.3,
+            "w": 3,
+            "h": 1.2
+          },
+          {
+            "id": "baggage",
+            "kind": "security",
+            "label": {
+              "en": "Baggage check",
+              "fil": "Inspeksyon ng bagahe"
+            },
+            "x": 4.5,
+            "y": 5.3,
+            "w": 3.5,
+            "h": 1.2
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Entrance",
+              "fil": "Pasukan"
+            },
+            "x": 4,
+            "y": 6.8,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "tricycles",
+            "kind": "transport",
+            "label": {
+              "en": "Tricycle stand",
+              "fil": "Paradahan ng tricycle"
+            },
+            "x": 8.5,
+            "y": 6.5,
+            "w": 3.5,
+            "h": 1.5
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "odiongan_port_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Odiongan Port",
+            "fil": "Odiongan Port"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_san_agustin_port",
+      "placeId": "san_agustin_port",
+      "summary": {
+        "en": "A small provincial pier.",
+        "fil": "Isang maliit na pantalan sa probinsya."
+      },
+      "tips": [
+        {
+          "en": "Buy your ship ticket at the shipping line's ticket office inside the port. Keep the official receipt.",
+          "fil": "Bumili ng tiket ng barko sa ticket office ng shipping line sa loob ng pantalan. Itago ang opisyal na resibo."
+        },
+        {
+          "en": "Pay the terminal fee at the port cashier before going to the gate.",
+          "fil": "Bayaran ang terminal fee sa cashier ng pantalan bago pumunta sa gate."
+        },
+        {
+          "en": "If you are unsure where to board, ask port staff or Coast Guard personnel.",
+          "fil": "Kung hindi sigurado kung saan sasakay, magtanong sa kawani ng pantalan o sa Coast Guard."
+        },
+        {
+          "en": "Tricycles wait outside the port entrance. Agree on the fare before riding.",
+          "fil": "Naghihintay ang mga tricycle sa labas ng pasukan ng pantalan. Pagkasunduan muna ang pamasahe bago sumakay."
+        }
+      ],
+      "layout": {
+        "width": 12,
+        "height": 8,
+        "seaSide": "top",
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "berth",
+            "kind": "boarding",
+            "label": {
+              "en": "Ship berth",
+              "fil": "Daungan ng barko"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1.5
+          },
+          {
+            "id": "gate",
+            "kind": "gate",
+            "label": {
+              "en": "Boarding gate",
+              "fil": "Gate papasakay"
+            },
+            "x": 4,
+            "y": 1.5,
+            "w": 4,
+            "h": 1
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Waiting area",
+              "fil": "Hintayan"
+            },
+            "x": 1,
+            "y": 2.5,
+            "w": 7,
+            "h": 2.5
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 8.5,
+            "y": 2.5,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Ticket office",
+              "fil": "Bilihan ng tiket"
+            },
+            "x": 8.5,
+            "y": 4.3,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "cashier",
+            "kind": "office",
+            "label": {
+              "en": "Terminal fee cashier",
+              "fil": "Bayaran ng terminal fee"
+            },
+            "x": 1,
+            "y": 5.3,
+            "w": 3,
+            "h": 1.2
+          },
+          {
+            "id": "baggage",
+            "kind": "security",
+            "label": {
+              "en": "Baggage check",
+              "fil": "Inspeksyon ng bagahe"
+            },
+            "x": 4.5,
+            "y": 5.3,
+            "w": 3.5,
+            "h": 1.2
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Entrance",
+              "fil": "Pasukan"
+            },
+            "x": 4,
+            "y": 6.8,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "tricycles",
+            "kind": "transport",
+            "label": {
+              "en": "Tricycle stand",
+              "fil": "Paradahan ng tricycle"
+            },
+            "x": 8.5,
+            "y": 6.5,
+            "w": 3.5,
+            "h": 1.5
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "san_agustin_port_main",
+          "kind": "entrance",
+          "label": {
+            "en": "San Agustin Port",
+            "fil": "San Agustin Port"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_romblon_port",
+      "placeId": "romblon_port",
+      "summary": {
+        "en": "A small provincial pier.",
+        "fil": "Isang maliit na pantalan sa probinsya."
+      },
+      "tips": [
+        {
+          "en": "Buy your ship ticket at the shipping line's ticket office inside the port. Keep the official receipt.",
+          "fil": "Bumili ng tiket ng barko sa ticket office ng shipping line sa loob ng pantalan. Itago ang opisyal na resibo."
+        },
+        {
+          "en": "Pay the terminal fee at the port cashier before going to the gate.",
+          "fil": "Bayaran ang terminal fee sa cashier ng pantalan bago pumunta sa gate."
+        },
+        {
+          "en": "If you are unsure where to board, ask port staff or Coast Guard personnel.",
+          "fil": "Kung hindi sigurado kung saan sasakay, magtanong sa kawani ng pantalan o sa Coast Guard."
+        },
+        {
+          "en": "Tricycles wait outside the port entrance. Agree on the fare before riding.",
+          "fil": "Naghihintay ang mga tricycle sa labas ng pasukan ng pantalan. Pagkasunduan muna ang pamasahe bago sumakay."
+        }
+      ],
+      "layout": {
+        "width": 12,
+        "height": 8,
+        "seaSide": "top",
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "berth",
+            "kind": "boarding",
+            "label": {
+              "en": "Ship berth",
+              "fil": "Daungan ng barko"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1.5
+          },
+          {
+            "id": "gate",
+            "kind": "gate",
+            "label": {
+              "en": "Boarding gate",
+              "fil": "Gate papasakay"
+            },
+            "x": 4,
+            "y": 1.5,
+            "w": 4,
+            "h": 1
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Waiting area",
+              "fil": "Hintayan"
+            },
+            "x": 1,
+            "y": 2.5,
+            "w": 7,
+            "h": 2.5
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 8.5,
+            "y": 2.5,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Ticket office",
+              "fil": "Bilihan ng tiket"
+            },
+            "x": 8.5,
+            "y": 4.3,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "cashier",
+            "kind": "office",
+            "label": {
+              "en": "Terminal fee cashier",
+              "fil": "Bayaran ng terminal fee"
+            },
+            "x": 1,
+            "y": 5.3,
+            "w": 3,
+            "h": 1.2
+          },
+          {
+            "id": "baggage",
+            "kind": "security",
+            "label": {
+              "en": "Baggage check",
+              "fil": "Inspeksyon ng bagahe"
+            },
+            "x": 4.5,
+            "y": 5.3,
+            "w": 3.5,
+            "h": 1.2
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Entrance",
+              "fil": "Pasukan"
+            },
+            "x": 4,
+            "y": 6.8,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "tricycles",
+            "kind": "transport",
+            "label": {
+              "en": "Tricycle stand",
+              "fil": "Paradahan ng tricycle"
+            },
+            "x": 8.5,
+            "y": 6.5,
+            "w": 3.5,
+            "h": 1.5
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "romblon_port_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Romblon Port",
+            "fil": "Romblon Port"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_magdiwang_port",
+      "placeId": "magdiwang_port",
+      "summary": {
+        "en": "A small provincial pier.",
+        "fil": "Isang maliit na pantalan sa probinsya."
+      },
+      "tips": [
+        {
+          "en": "Buy your ship ticket at the shipping line's ticket office inside the port. Keep the official receipt.",
+          "fil": "Bumili ng tiket ng barko sa ticket office ng shipping line sa loob ng pantalan. Itago ang opisyal na resibo."
+        },
+        {
+          "en": "Pay the terminal fee at the port cashier before going to the gate.",
+          "fil": "Bayaran ang terminal fee sa cashier ng pantalan bago pumunta sa gate."
+        },
+        {
+          "en": "If you are unsure where to board, ask port staff or Coast Guard personnel.",
+          "fil": "Kung hindi sigurado kung saan sasakay, magtanong sa kawani ng pantalan o sa Coast Guard."
+        },
+        {
+          "en": "Tricycles wait outside the port entrance. Agree on the fare before riding.",
+          "fil": "Naghihintay ang mga tricycle sa labas ng pasukan ng pantalan. Pagkasunduan muna ang pamasahe bago sumakay."
+        }
+      ],
+      "layout": {
+        "width": 12,
+        "height": 8,
+        "seaSide": "top",
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "berth",
+            "kind": "boarding",
+            "label": {
+              "en": "Ship berth",
+              "fil": "Daungan ng barko"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1.5
+          },
+          {
+            "id": "gate",
+            "kind": "gate",
+            "label": {
+              "en": "Boarding gate",
+              "fil": "Gate papasakay"
+            },
+            "x": 4,
+            "y": 1.5,
+            "w": 4,
+            "h": 1
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Waiting area",
+              "fil": "Hintayan"
+            },
+            "x": 1,
+            "y": 2.5,
+            "w": 7,
+            "h": 2.5
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 8.5,
+            "y": 2.5,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Ticket office",
+              "fil": "Bilihan ng tiket"
+            },
+            "x": 8.5,
+            "y": 4.3,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "cashier",
+            "kind": "office",
+            "label": {
+              "en": "Terminal fee cashier",
+              "fil": "Bayaran ng terminal fee"
+            },
+            "x": 1,
+            "y": 5.3,
+            "w": 3,
+            "h": 1.2
+          },
+          {
+            "id": "baggage",
+            "kind": "security",
+            "label": {
+              "en": "Baggage check",
+              "fil": "Inspeksyon ng bagahe"
+            },
+            "x": 4.5,
+            "y": 5.3,
+            "w": 3.5,
+            "h": 1.2
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Entrance",
+              "fil": "Pasukan"
+            },
+            "x": 4,
+            "y": 6.8,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "tricycles",
+            "kind": "transport",
+            "label": {
+              "en": "Tricycle stand",
+              "fil": "Paradahan ng tricycle"
+            },
+            "x": 8.5,
+            "y": 6.5,
+            "w": 3.5,
+            "h": 1.5
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "magdiwang_port_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Magdiwang Port",
+            "fil": "Magdiwang Port"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_looc_port",
+      "placeId": "looc_port",
+      "summary": {
+        "en": "A small provincial pier.",
+        "fil": "Isang maliit na pantalan sa probinsya."
+      },
+      "tips": [
+        {
+          "en": "Buy your ship ticket at the shipping line's ticket office inside the port. Keep the official receipt.",
+          "fil": "Bumili ng tiket ng barko sa ticket office ng shipping line sa loob ng pantalan. Itago ang opisyal na resibo."
+        },
+        {
+          "en": "Pay the terminal fee at the port cashier before going to the gate.",
+          "fil": "Bayaran ang terminal fee sa cashier ng pantalan bago pumunta sa gate."
+        },
+        {
+          "en": "If you are unsure where to board, ask port staff or Coast Guard personnel.",
+          "fil": "Kung hindi sigurado kung saan sasakay, magtanong sa kawani ng pantalan o sa Coast Guard."
+        },
+        {
+          "en": "Tricycles wait outside the port entrance. Agree on the fare before riding.",
+          "fil": "Naghihintay ang mga tricycle sa labas ng pasukan ng pantalan. Pagkasunduan muna ang pamasahe bago sumakay."
+        }
+      ],
+      "layout": {
+        "width": 12,
+        "height": 8,
+        "seaSide": "top",
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "berth",
+            "kind": "boarding",
+            "label": {
+              "en": "Ship berth",
+              "fil": "Daungan ng barko"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1.5
+          },
+          {
+            "id": "gate",
+            "kind": "gate",
+            "label": {
+              "en": "Boarding gate",
+              "fil": "Gate papasakay"
+            },
+            "x": 4,
+            "y": 1.5,
+            "w": 4,
+            "h": 1
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Waiting area",
+              "fil": "Hintayan"
+            },
+            "x": 1,
+            "y": 2.5,
+            "w": 7,
+            "h": 2.5
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 8.5,
+            "y": 2.5,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Ticket office",
+              "fil": "Bilihan ng tiket"
+            },
+            "x": 8.5,
+            "y": 4.3,
+            "w": 2.5,
+            "h": 1.5
+          },
+          {
+            "id": "cashier",
+            "kind": "office",
+            "label": {
+              "en": "Terminal fee cashier",
+              "fil": "Bayaran ng terminal fee"
+            },
+            "x": 1,
+            "y": 5.3,
+            "w": 3,
+            "h": 1.2
+          },
+          {
+            "id": "baggage",
+            "kind": "security",
+            "label": {
+              "en": "Baggage check",
+              "fil": "Inspeksyon ng bagahe"
+            },
+            "x": 4.5,
+            "y": 5.3,
+            "w": 3.5,
+            "h": 1.2
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Entrance",
+              "fil": "Pasukan"
+            },
+            "x": 4,
+            "y": 6.8,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "tricycles",
+            "kind": "transport",
+            "label": {
+              "en": "Tricycle stand",
+              "fil": "Paradahan ng tricycle"
+            },
+            "x": 8.5,
+            "y": 6.5,
+            "w": 3.5,
+            "h": 1.5
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "looc_port_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Looc Port",
+            "fil": "Looc Port"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_batangas_port",
+      "placeId": "batangas_port",
+      "summary": {
+        "en": "A large, busy port with many shipping lines.",
+        "fil": "Malaki at mataong pantalan na may maraming shipping line."
+      },
+      "tips": [
+        {
+          "en": "Batangas Port is large and busy. Follow the signs to your shipping line's ticket counter.",
+          "fil": "Malaki at mataong pantalan ang Batangas Port. Sundan ang mga karatula papunta sa ticket counter ng inyong shipping line."
+        },
+        {
+          "en": "Buses to Manila leave from the bus area outside the passenger terminal.",
+          "fil": "Ang mga bus papuntang Maynila ay umaalis sa bus area sa labas ng passenger terminal."
+        },
+        {
+          "en": "Ignore people who offer to buy tickets for you. Use only official counters.",
+          "fil": "Huwag pansinin ang mga nag-aalok na sila ang bibili ng tiket para sa inyo. Sa opisyal na counter lang bumili."
+        }
+      ],
+      "layout": {
+        "width": 16,
+        "height": 9,
+        "seaSide": "top",
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "berths",
+            "kind": "boarding",
+            "label": {
+              "en": "Ship berths",
+              "fil": "Mga daungan ng barko"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 16,
+            "h": 1.5
+          },
+          {
+            "id": "gates",
+            "kind": "gate",
+            "label": {
+              "en": "Boarding gates",
+              "fil": "Mga gate papasakay"
+            },
+            "x": 2,
+            "y": 1.5,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Passenger waiting hall",
+              "fil": "Hintayan ng pasahero"
+            },
+            "x": 1,
+            "y": 2.8,
+            "w": 9,
+            "h": 3
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 10.5,
+            "y": 2.8,
+            "w": 2.5,
+            "h": 1.4
+          },
+          {
+            "id": "food",
+            "kind": "food",
+            "label": {
+              "en": "Food stalls",
+              "fil": "Kainan"
+            },
+            "x": 13.3,
+            "y": 2.8,
+            "w": 2.5,
+            "h": 1.4
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Shipping line ticket counters",
+              "fil": "Ticket counter ng shipping line"
+            },
+            "x": 10.5,
+            "y": 4.5,
+            "w": 5.3,
+            "h": 1.5
+          },
+          {
+            "id": "cashier",
+            "kind": "office",
+            "label": {
+              "en": "Terminal fee cashier",
+              "fil": "Bayaran ng terminal fee"
+            },
+            "x": 1,
+            "y": 6.2,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "baggage",
+            "kind": "security",
+            "label": {
+              "en": "Security and baggage check",
+              "fil": "Seguridad at inspeksyon ng bagahe"
+            },
+            "x": 5.5,
+            "y": 6.2,
+            "w": 5,
+            "h": 1.2
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Main entrance",
+              "fil": "Pangunahing pasukan"
+            },
+            "x": 6,
+            "y": 7.8,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "transfer",
+            "kind": "transport",
+            "label": {
+              "en": "Way to buses and jeepneys",
+              "fil": "Daan papunta sa bus at jeep"
+            },
+            "x": 11,
+            "y": 7.6,
+            "w": 5,
+            "h": 1.4
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "batangas_port_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Batangas Port",
+            "fil": "Batangas Port"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_lucena_port",
+      "placeId": "lucena_port",
+      "summary": {
+        "en": "Lucena's port at Dalahican.",
+        "fil": "Ang pantalan ng Lucena sa Dalahican."
+      },
+      "tips": [
+        {
+          "en": "From Dalahican Port, take a jeepney marked for the Grand Terminal to catch buses to Manila.",
+          "fil": "Mula sa Dalahican Port, sumakay ng jeep na papuntang Grand Terminal para makasakay ng bus papuntang Maynila."
+        },
+        {
+          "en": "Buy ship tickets only at the official shipping line counters and keep the receipt.",
+          "fil": "Bumili lamang ng tiket ng barko sa opisyal na counter ng shipping line at itago ang resibo."
+        }
+      ],
+      "layout": {
+        "width": 16,
+        "height": 9,
+        "seaSide": "top",
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "berths",
+            "kind": "boarding",
+            "label": {
+              "en": "Ship berths",
+              "fil": "Mga daungan ng barko"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 16,
+            "h": 1.5
+          },
+          {
+            "id": "gates",
+            "kind": "gate",
+            "label": {
+              "en": "Boarding gates",
+              "fil": "Mga gate papasakay"
+            },
+            "x": 2,
+            "y": 1.5,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Passenger waiting hall",
+              "fil": "Hintayan ng pasahero"
+            },
+            "x": 1,
+            "y": 2.8,
+            "w": 9,
+            "h": 3
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 10.5,
+            "y": 2.8,
+            "w": 2.5,
+            "h": 1.4
+          },
+          {
+            "id": "food",
+            "kind": "food",
+            "label": {
+              "en": "Food stalls",
+              "fil": "Kainan"
+            },
+            "x": 13.3,
+            "y": 2.8,
+            "w": 2.5,
+            "h": 1.4
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Shipping line ticket counters",
+              "fil": "Ticket counter ng shipping line"
+            },
+            "x": 10.5,
+            "y": 4.5,
+            "w": 5.3,
+            "h": 1.5
+          },
+          {
+            "id": "cashier",
+            "kind": "office",
+            "label": {
+              "en": "Terminal fee cashier",
+              "fil": "Bayaran ng terminal fee"
+            },
+            "x": 1,
+            "y": 6.2,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "baggage",
+            "kind": "security",
+            "label": {
+              "en": "Security and baggage check",
+              "fil": "Seguridad at inspeksyon ng bagahe"
+            },
+            "x": 5.5,
+            "y": 6.2,
+            "w": 5,
+            "h": 1.2
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Main entrance",
+              "fil": "Pangunahing pasukan"
+            },
+            "x": 6,
+            "y": 7.8,
+            "w": 4,
+            "h": 1.2
+          },
+          {
+            "id": "transfer",
+            "kind": "transport",
+            "label": {
+              "en": "Way to buses and jeepneys",
+              "fil": "Daan papunta sa bus at jeep"
+            },
+            "x": 11,
+            "y": 7.6,
+            "w": 5,
+            "h": 1.4
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "lucena_port_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Lucena Port (Dalahican)",
+            "fil": "Lucena Port (Dalahican)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_batangas_bus_terminal",
+      "placeId": "batangas_bus_terminal",
+      "summary": {
+        "en": "Bus terminal for trips to Metro Manila.",
+        "fil": "Terminal ng bus papuntang Metro Manila."
+      },
+      "tips": [
+        {
+          "en": "Check the sign board on the bus and ask the conductor before boarding.",
+          "fil": "Tingnan ang karatula ng bus at magtanong sa konduktor bago sumakay."
+        },
+        {
+          "en": "Keep your bags where you can see them.",
+          "fil": "Ilagay ang inyong mga bag kung saan ninyo nakikita."
+        },
+        {
+          "en": "Buy tickets only at the official ticket booth or from the conductor.",
+          "fil": "Bumili lamang ng tiket sa opisyal na ticket booth o sa konduktor."
+        }
+      ],
+      "layout": {
+        "width": 14,
+        "height": 7,
+        "seaSide": null,
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "bays",
+            "kind": "boarding",
+            "label": {
+              "en": "Bus bays",
+              "fil": "Sakayan ng bus"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 14,
+            "h": 2
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Waiting area",
+              "fil": "Hintayan"
+            },
+            "x": 1,
+            "y": 2.5,
+            "w": 7,
+            "h": 2.5
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Ticket booths",
+              "fil": "Bilihan ng tiket"
+            },
+            "x": 8.5,
+            "y": 2.5,
+            "w": 4.5,
+            "h": 1.5
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 8.5,
+            "y": 4.3,
+            "w": 2,
+            "h": 1.5
+          },
+          {
+            "id": "food",
+            "kind": "food",
+            "label": {
+              "en": "Food stalls",
+              "fil": "Kainan"
+            },
+            "x": 11,
+            "y": 4.3,
+            "w": 2,
+            "h": 1.5
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Entrance",
+              "fil": "Pasukan"
+            },
+            "x": 5,
+            "y": 6,
+            "w": 4,
+            "h": 1
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "batangas_bus_terminal_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Batangas Port bus terminal",
+            "fil": "Batangas Port bus terminal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "guide_lucena_grand_terminal",
+      "placeId": "lucena_grand_terminal",
+      "summary": {
+        "en": "Bus terminal for trips to Metro Manila.",
+        "fil": "Terminal ng bus papuntang Metro Manila."
+      },
+      "tips": [
+        {
+          "en": "Check the sign board on the bus and ask the conductor before boarding.",
+          "fil": "Tingnan ang karatula ng bus at magtanong sa konduktor bago sumakay."
+        },
+        {
+          "en": "Keep your bags where you can see them.",
+          "fil": "Ilagay ang inyong mga bag kung saan ninyo nakikita."
+        },
+        {
+          "en": "Buy tickets only at the official ticket booth or from the conductor.",
+          "fil": "Bumili lamang ng tiket sa opisyal na ticket booth o sa konduktor."
+        }
+      ],
+      "layout": {
+        "width": 14,
+        "height": 7,
+        "seaSide": null,
+        "isIllustrative": true,
+        "areas": [
+          {
+            "id": "bays",
+            "kind": "boarding",
+            "label": {
+              "en": "Bus bays",
+              "fil": "Sakayan ng bus"
+            },
+            "x": 0,
+            "y": 0,
+            "w": 14,
+            "h": 2
+          },
+          {
+            "id": "waiting",
+            "kind": "waiting",
+            "label": {
+              "en": "Waiting area",
+              "fil": "Hintayan"
+            },
+            "x": 1,
+            "y": 2.5,
+            "w": 7,
+            "h": 2.5
+          },
+          {
+            "id": "tickets",
+            "kind": "ticketing",
+            "label": {
+              "en": "Ticket booths",
+              "fil": "Bilihan ng tiket"
+            },
+            "x": 8.5,
+            "y": 2.5,
+            "w": 4.5,
+            "h": 1.5
+          },
+          {
+            "id": "restroom",
+            "kind": "restroom",
+            "label": {
+              "en": "Restrooms",
+              "fil": "Palikuran (CR)"
+            },
+            "x": 8.5,
+            "y": 4.3,
+            "w": 2,
+            "h": 1.5
+          },
+          {
+            "id": "food",
+            "kind": "food",
+            "label": {
+              "en": "Food stalls",
+              "fil": "Kainan"
+            },
+            "x": 11,
+            "y": 4.3,
+            "w": 2,
+            "h": 1.5
+          },
+          {
+            "id": "entrance",
+            "kind": "entrance",
+            "label": {
+              "en": "Entrance",
+              "fil": "Pasukan"
+            },
+            "x": 5,
+            "y": 6,
+            "w": 4,
+            "h": 1
+          }
+        ],
+        "verification": {
+          "source": "PLACEHOLDER",
+          "isPlaceholder": true,
+          "lastVerified": null
+        }
+      },
+      "photos": [],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pointsOfInterest": [
+        {
+          "id": "lucena_grand_terminal_main",
+          "kind": "entrance",
+          "label": {
+            "en": "Lucena Grand Terminal",
+            "fil": "Lucena Grand Terminal"
+          }
+        }
+      ]
+    }
+  ]
+}

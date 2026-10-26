@@ -1,0 +1,1716 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "voyageId": "a1",
+      "fromPortId": "batangas_port",
+      "toPortId": "odiongan_port",
+      "fareClass": "economy",
+      "farePhp": 1100,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "a1",
+      "fromPortId": "batangas_port",
+      "toPortId": "odiongan_port",
+      "fareClass": "tourist",
+      "farePhp": 1450,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "a2",
+      "fromPortId": "odiongan_port",
+      "toPortId": "batangas_port",
+      "fareClass": "economy",
+      "farePhp": 1100,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "a2",
+      "fromPortId": "odiongan_port",
+      "toPortId": "batangas_port",
+      "fareClass": "tourist",
+      "farePhp": 1450,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "batangas_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "economy",
+      "farePhp": 1100,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "batangas_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "tourist",
+      "farePhp": 1450,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "batangas_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy",
+      "farePhp": 1450,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "batangas_port",
+      "toPortId": "romblon_port",
+      "fareClass": "tourist",
+      "farePhp": 1900,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "batangas_port",
+      "toPortId": "magdiwang_port",
+      "fareClass": "economy",
+      "farePhp": 1800,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "batangas_port",
+      "toPortId": "magdiwang_port",
+      "fareClass": "tourist",
+      "farePhp": 2350,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "san_agustin_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy",
+      "farePhp": 200,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "san_agustin_port",
+      "toPortId": "romblon_port",
+      "fareClass": "tourist",
+      "farePhp": 250,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "san_agustin_port",
+      "toPortId": "magdiwang_port",
+      "fareClass": "economy",
+      "farePhp": 600,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "san_agustin_port",
+      "toPortId": "magdiwang_port",
+      "fareClass": "tourist",
+      "farePhp": 800,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "romblon_port",
+      "toPortId": "magdiwang_port",
+      "fareClass": "economy",
+      "farePhp": 300,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b1",
+      "fromPortId": "romblon_port",
+      "toPortId": "magdiwang_port",
+      "fareClass": "tourist",
+      "farePhp": 400,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "magdiwang_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy",
+      "farePhp": 300,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "magdiwang_port",
+      "toPortId": "romblon_port",
+      "fareClass": "tourist",
+      "farePhp": 400,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "magdiwang_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "economy",
+      "farePhp": 600,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "magdiwang_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "tourist",
+      "farePhp": 800,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "magdiwang_port",
+      "toPortId": "batangas_port",
+      "fareClass": "economy",
+      "farePhp": 1800,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "magdiwang_port",
+      "toPortId": "batangas_port",
+      "fareClass": "tourist",
+      "farePhp": 2350,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "romblon_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "economy",
+      "farePhp": 200,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "romblon_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "tourist",
+      "farePhp": 250,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "romblon_port",
+      "toPortId": "batangas_port",
+      "fareClass": "economy",
+      "farePhp": 1450,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "romblon_port",
+      "toPortId": "batangas_port",
+      "fareClass": "tourist",
+      "farePhp": 1900,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "san_agustin_port",
+      "toPortId": "batangas_port",
+      "fareClass": "economy",
+      "farePhp": 1100,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "b2",
+      "fromPortId": "san_agustin_port",
+      "toPortId": "batangas_port",
+      "fareClass": "tourist",
+      "farePhp": 1450,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c1",
+      "fromPortId": "lucena_port",
+      "toPortId": "odiongan_port",
+      "fareClass": "economy",
+      "farePhp": 1000,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c1",
+      "fromPortId": "lucena_port",
+      "toPortId": "odiongan_port",
+      "fareClass": "tourist",
+      "farePhp": 1300,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c1",
+      "fromPortId": "lucena_port",
+      "toPortId": "looc_port",
+      "fareClass": "economy",
+      "farePhp": 1400,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c1",
+      "fromPortId": "lucena_port",
+      "toPortId": "looc_port",
+      "fareClass": "tourist",
+      "farePhp": 1800,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c1",
+      "fromPortId": "odiongan_port",
+      "toPortId": "looc_port",
+      "fareClass": "economy",
+      "farePhp": 300,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c1",
+      "fromPortId": "odiongan_port",
+      "toPortId": "looc_port",
+      "fareClass": "tourist",
+      "farePhp": 400,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c2",
+      "fromPortId": "looc_port",
+      "toPortId": "odiongan_port",
+      "fareClass": "economy",
+      "farePhp": 300,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c2",
+      "fromPortId": "looc_port",
+      "toPortId": "odiongan_port",
+      "fareClass": "tourist",
+      "farePhp": 400,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c2",
+      "fromPortId": "looc_port",
+      "toPortId": "lucena_port",
+      "fareClass": "economy",
+      "farePhp": 1400,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c2",
+      "fromPortId": "looc_port",
+      "toPortId": "lucena_port",
+      "fareClass": "tourist",
+      "farePhp": 1800,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c2",
+      "fromPortId": "odiongan_port",
+      "toPortId": "lucena_port",
+      "fareClass": "economy",
+      "farePhp": 1000,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "c2",
+      "fromPortId": "odiongan_port",
+      "toPortId": "lucena_port",
+      "fareClass": "tourist",
+      "farePhp": 1300,
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "banton_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "banton_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "banton_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_banton",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "simara_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "simara_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "simara_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_simara",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_friday",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_friday",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_friday",
+      "fromPortId": "lucena_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_friday",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy",
+      "farePhp": 1200,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 960,
+        "senior": 860,
+        "pwd": 860,
+        "halfFare": 600
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_friday",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "comfort",
+      "farePhp": 1440,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1160,
+        "senior": 1030,
+        "pwd": 1030,
+        "halfFare": 720
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_lucena_friday",
+      "fromPortId": "lucena_port",
+      "toPortId": "romblon_port",
+      "fareClass": "premium",
+      "farePhp": 1680,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1350,
+        "senior": 1200,
+        "pwd": 1200,
+        "halfFare": 840
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_return",
+      "fromPortId": "romblon_port",
+      "toPortId": "san_agustin_port",
+      "fareClass": "economy",
+      "farePhp": 150,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 115,
+        "senior": 105,
+        "pwd": 105,
+        "halfFare": 75
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_return",
+      "fromPortId": "romblon_port",
+      "toPortId": "simara_port",
+      "fareClass": "economy",
+      "farePhp": 510,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 405,
+        "senior": 360,
+        "pwd": 360,
+        "halfFare": 255
+      }
+    },
+    {
+      "voyageId": "sh_vdp10_return",
+      "fromPortId": "romblon_port",
+      "toPortId": "banton_port",
+      "fareClass": "economy",
+      "farePhp": 510,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 405,
+        "senior": 360,
+        "pwd": 360,
+        "halfFare": 255
+      }
+    },
+    {
+      "voyageId": "sh_vdp12_lucena_sibuyan",
+      "fromPortId": "lucena_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "economy",
+      "farePhp": 1320,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1060,
+        "senior": 945,
+        "pwd": 945,
+        "halfFare": 660
+      }
+    },
+    {
+      "voyageId": "sh_vdp12_lucena_sibuyan",
+      "fromPortId": "lucena_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "comfort",
+      "farePhp": 1560,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1040,
+        "senior": 930,
+        "pwd": 930,
+        "halfFare": 650
+      },
+      "pricesVerification": {
+        "source": "Not verified – poster may have a typo: these Comfort student, senior/PWD and half-fare prices are lower than Economy's",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "voyageId": "sh_vdp12_lucena_sibuyan",
+      "fromPortId": "lucena_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "premium",
+      "farePhp": 1800,
+      "verification": {
+        "source": "Starhorse Shipping Lines official Facebook page (facebook.com/starhorseshippinglines), posters dated 21–23 Oct 2026",
+        "isPlaceholder": false,
+        "lastVerified": "2026-10-26"
+      },
+      "pricesPhp": {
+        "student": 1440,
+        "senior": 1285,
+        "pwd": 1285,
+        "halfFare": 900
+      }
+    },
+    {
+      "voyageId": "sl_a_batangas_romblon",
+      "fromPortId": "batangas_port",
+      "toPortId": "romblon_port",
+      "fareClass": "reclining",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_batangas_romblon",
+      "fromPortId": "batangas_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy_bed",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_batangas_romblon",
+      "fromPortId": "batangas_port",
+      "toPortId": "romblon_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 2270,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1806,
+        "senior": 1579,
+        "pwd": 1579,
+        "minor": 1135,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_batangas_romblon",
+      "fromPortId": "batangas_port",
+      "toPortId": "romblon_port",
+      "fareClass": "cabin",
+      "farePhp": 3305,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 2634,
+        "senior": 2318,
+        "pwd": 2318,
+        "minor": 1653,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_batangas_romblon",
+      "fromPortId": "batangas_port",
+      "toPortId": "romblon_port",
+      "fareClass": "vip_room",
+      "farePhp": 9615,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "roomFor": 2
+    },
+    {
+      "voyageId": "sl_a_romblon_batangas",
+      "fromPortId": "romblon_port",
+      "toPortId": "batangas_port",
+      "fareClass": "reclining",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_romblon_batangas",
+      "fromPortId": "romblon_port",
+      "toPortId": "batangas_port",
+      "fareClass": "economy_bed",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_romblon_batangas",
+      "fromPortId": "romblon_port",
+      "toPortId": "batangas_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 2270,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1806,
+        "senior": 1579,
+        "pwd": 1579,
+        "minor": 1135,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_romblon_batangas",
+      "fromPortId": "romblon_port",
+      "toPortId": "batangas_port",
+      "fareClass": "cabin",
+      "farePhp": 3305,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 2634,
+        "senior": 2318,
+        "pwd": 2318,
+        "minor": 1653,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_a_romblon_batangas",
+      "fromPortId": "romblon_port",
+      "toPortId": "batangas_port",
+      "fareClass": "vip_room",
+      "farePhp": 9615,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "roomFor": 2
+    },
+    {
+      "voyageId": "sl_b_batangas_sibuyan",
+      "fromPortId": "batangas_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "reclining",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_b_batangas_sibuyan",
+      "fromPortId": "batangas_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "economy_bed",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_b_batangas_sibuyan",
+      "fromPortId": "batangas_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 2270,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1806,
+        "senior": 1579,
+        "pwd": 1579,
+        "minor": 1135,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_b_batangas_sibuyan",
+      "fromPortId": "batangas_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "cabin",
+      "farePhp": 3765,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 3002,
+        "senior": 2646,
+        "pwd": 2646,
+        "minor": 1183,
+        "infant": 500
+      }
+    },
+    {
+      "voyageId": "sl_b_batangas_sibuyan",
+      "fromPortId": "batangas_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "vip_room",
+      "farePhp": 10995,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "roomFor": 2
+    },
+    {
+      "voyageId": "sl_b_sibuyan_batangas",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "batangas_port",
+      "fareClass": "reclining",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_b_sibuyan_batangas",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "batangas_port",
+      "fareClass": "economy_bed",
+      "farePhp": 1580,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1254,
+        "senior": 1086,
+        "pwd": 1086,
+        "minor": 790,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_b_sibuyan_batangas",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "batangas_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 2270,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1806,
+        "senior": 1579,
+        "pwd": 1579,
+        "minor": 1135,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_b_sibuyan_batangas",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "batangas_port",
+      "fareClass": "cabin",
+      "farePhp": 3765,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 3002,
+        "senior": 2646,
+        "pwd": 2646,
+        "minor": 1183,
+        "infant": 500
+      }
+    },
+    {
+      "voyageId": "sl_b_sibuyan_batangas",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "batangas_port",
+      "fareClass": "vip_room",
+      "farePhp": 10995,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "roomFor": 2
+    },
+    {
+      "voyageId": "sl_c_batangas_cajidiocan",
+      "fromPortId": "batangas_port",
+      "toPortId": "cajidiocan_port",
+      "fareClass": "reclining",
+      "farePhp": 1925,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1530,
+        "senior": 1332,
+        "pwd": 1332,
+        "minor": 963,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_c_batangas_cajidiocan",
+      "fromPortId": "batangas_port",
+      "toPortId": "cajidiocan_port",
+      "fareClass": "economy_bed",
+      "farePhp": 1925,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1530,
+        "senior": 1332,
+        "pwd": 1332,
+        "minor": 963,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_c_batangas_cajidiocan",
+      "fromPortId": "batangas_port",
+      "toPortId": "cajidiocan_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 2615,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 2082,
+        "senior": 1825,
+        "pwd": 1825,
+        "minor": 1308,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_c_batangas_cajidiocan",
+      "fromPortId": "batangas_port",
+      "toPortId": "cajidiocan_port",
+      "fareClass": "cabin",
+      "farePhp": 3995,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 3186,
+        "senior": 2911,
+        "pwd": 2911,
+        "minor": 1998,
+        "infant": 500
+      }
+    },
+    {
+      "voyageId": "sl_c_batangas_cajidiocan",
+      "fromPortId": "batangas_port",
+      "toPortId": "cajidiocan_port",
+      "fareClass": "vip_room",
+      "farePhp": 11340,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "roomFor": 2
+    },
+    {
+      "voyageId": "sl_c_cajidiocan_batangas",
+      "fromPortId": "cajidiocan_port",
+      "toPortId": "batangas_port",
+      "fareClass": "reclining",
+      "farePhp": 1925,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1530,
+        "senior": 1332,
+        "pwd": 1332,
+        "minor": 963,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_c_cajidiocan_batangas",
+      "fromPortId": "cajidiocan_port",
+      "toPortId": "batangas_port",
+      "fareClass": "economy_bed",
+      "farePhp": 1925,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 1530,
+        "senior": 1332,
+        "pwd": 1332,
+        "minor": 963,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_c_cajidiocan_batangas",
+      "fromPortId": "cajidiocan_port",
+      "toPortId": "batangas_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 2615,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 2082,
+        "senior": 1825,
+        "pwd": 1825,
+        "minor": 1308,
+        "infant": 250
+      }
+    },
+    {
+      "voyageId": "sl_c_cajidiocan_batangas",
+      "fromPortId": "cajidiocan_port",
+      "toPortId": "batangas_port",
+      "fareClass": "cabin",
+      "farePhp": 3995,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 3186,
+        "senior": 2911,
+        "pwd": 2911,
+        "minor": 1998,
+        "infant": 500
+      }
+    },
+    {
+      "voyageId": "sl_c_cajidiocan_batangas",
+      "fromPortId": "cajidiocan_port",
+      "toPortId": "batangas_port",
+      "fareClass": "vip_room",
+      "farePhp": 11340,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "roomFor": 2
+    },
+    {
+      "voyageId": "sl_d_romblon_sibuyan",
+      "fromPortId": "romblon_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "reclining",
+      "farePhp": 595,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 496,
+        "senior": 453,
+        "pwd": 453,
+        "minor": 347,
+        "infant": 50
+      }
+    },
+    {
+      "voyageId": "sl_d_romblon_sibuyan",
+      "fromPortId": "romblon_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "economy_bed",
+      "farePhp": 595,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 496,
+        "senior": 453,
+        "pwd": 453,
+        "minor": 347,
+        "infant": 50
+      }
+    },
+    {
+      "voyageId": "sl_d_romblon_sibuyan",
+      "fromPortId": "romblon_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 595,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 496,
+        "senior": 453,
+        "pwd": 453,
+        "minor": 347,
+        "infant": 50
+      }
+    },
+    {
+      "voyageId": "sl_d_romblon_sibuyan",
+      "fromPortId": "romblon_port",
+      "toPortId": "sibuyan_tbc_port",
+      "fareClass": "cabin",
+      "farePhp": 840,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 652,
+        "senior": 593,
+        "pwd": 593,
+        "minor": 445,
+        "infant": 50
+      }
+    },
+    {
+      "voyageId": "sl_d_sibuyan_romblon",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "romblon_port",
+      "fareClass": "reclining",
+      "farePhp": 595,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 496,
+        "senior": 453,
+        "pwd": 453,
+        "minor": 347,
+        "infant": 50
+      }
+    },
+    {
+      "voyageId": "sl_d_sibuyan_romblon",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "romblon_port",
+      "fareClass": "economy_bed",
+      "farePhp": 595,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 496,
+        "senior": 453,
+        "pwd": 453,
+        "minor": 347,
+        "infant": 50
+      }
+    },
+    {
+      "voyageId": "sl_d_sibuyan_romblon",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "romblon_port",
+      "fareClass": "tourist_bed",
+      "farePhp": 595,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 496,
+        "senior": 453,
+        "pwd": 453,
+        "minor": 347,
+        "infant": 50
+      }
+    },
+    {
+      "voyageId": "sl_d_sibuyan_romblon",
+      "fromPortId": "sibuyan_tbc_port",
+      "toPortId": "romblon_port",
+      "fareClass": "cabin",
+      "farePhp": 840,
+      "verification": {
+        "source": "Malesido Travel & Tours (ticket agent) price list, seen 2026-10-26; not yet checked against chelseatravel.ph",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "pricesPhp": {
+        "student": 652,
+        "senior": 593,
+        "pwd": 593,
+        "minor": 445,
+        "infant": 50
+      }
+    }
+  ]
+}

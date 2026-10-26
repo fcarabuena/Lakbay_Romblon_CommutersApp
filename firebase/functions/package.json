@@ -1,0 +1,16 @@
+{
+  "name": "lakbay-romblon-functions",
+  "private": true,
+  "description": "Sends advisory push alerts for Lakbay Romblon.",
+  "main": "index.js",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0",
+    "firebase-functions": "^6.3.0"
+  }
+}

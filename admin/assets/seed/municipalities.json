@@ -1,0 +1,158 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "alcantara",
+      "name": "Alcantara",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.26,
+        "lng": 122.05
+      }
+    },
+    {
+      "id": "banton",
+      "name": "Banton",
+      "island": "Banton",
+      "location": {
+        "lat": 12.95,
+        "lng": 122.09
+      }
+    },
+    {
+      "id": "cajidiocan",
+      "name": "Cajidiocan",
+      "island": "Sibuyan",
+      "location": {
+        "lat": 12.37,
+        "lng": 122.68
+      }
+    },
+    {
+      "id": "calatrava",
+      "name": "Calatrava",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.62,
+        "lng": 122.07
+      }
+    },
+    {
+      "id": "concepcion",
+      "name": "Concepcion",
+      "island": "Maestro de Campo",
+      "location": {
+        "lat": 12.92,
+        "lng": 121.71
+      }
+    },
+    {
+      "id": "corcuera",
+      "name": "Corcuera",
+      "island": "Simara",
+      "location": {
+        "lat": 12.8,
+        "lng": 122.05
+      }
+    },
+    {
+      "id": "ferrol",
+      "name": "Ferrol",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.34,
+        "lng": 121.94
+      }
+    },
+    {
+      "id": "looc",
+      "name": "Looc",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.26,
+        "lng": 121.99
+      }
+    },
+    {
+      "id": "magdiwang",
+      "name": "Magdiwang",
+      "island": "Sibuyan",
+      "location": {
+        "lat": 12.48,
+        "lng": 122.51
+      }
+    },
+    {
+      "id": "odiongan",
+      "name": "Odiongan",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.4,
+        "lng": 121.99
+      }
+    },
+    {
+      "id": "romblon",
+      "name": "Romblon",
+      "island": "Romblon",
+      "location": {
+        "lat": 12.58,
+        "lng": 122.27
+      }
+    },
+    {
+      "id": "san_agustin",
+      "name": "San Agustin",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.57,
+        "lng": 122.13
+      }
+    },
+    {
+      "id": "san_andres",
+      "name": "San Andres",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.59,
+        "lng": 122.01
+      }
+    },
+    {
+      "id": "san_fernando",
+      "name": "San Fernando",
+      "island": "Sibuyan",
+      "location": {
+        "lat": 12.3,
+        "lng": 122.6
+      }
+    },
+    {
+      "id": "san_jose",
+      "name": "San Jose",
+      "island": "Carabao",
+      "location": {
+        "lat": 12.06,
+        "lng": 121.95
+      }
+    },
+    {
+      "id": "santa_fe",
+      "name": "Santa Fe",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.16,
+        "lng": 122.0
+      }
+    },
+    {
+      "id": "santa_maria",
+      "name": "Santa Maria",
+      "island": "Tablas",
+      "location": {
+        "lat": 12.46,
+        "lng": 122.1
+      }
+    }
+  ]
+}

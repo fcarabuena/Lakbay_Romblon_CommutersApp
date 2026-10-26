@@ -1,0 +1,201 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "odiongan_port",
+      "name": "Odiongan Port",
+      "side": "romblon",
+      "municipalityId": "odiongan",
+      "location": {
+        "lat": 12.4,
+        "lng": 121.98
+      },
+      "terminalFeePhp": 30,
+      "terminalFeeVerification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [
+        "ticket_office",
+        "waiting_area",
+        "restroom"
+      ]
+    },
+    {
+      "id": "san_agustin_port",
+      "name": "San Agustin Port",
+      "side": "romblon",
+      "municipalityId": "san_agustin",
+      "location": {
+        "lat": 12.57,
+        "lng": 122.14
+      },
+      "terminalFeePhp": 30,
+      "terminalFeeVerification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [
+        "ticket_office",
+        "waiting_area",
+        "restroom"
+      ]
+    },
+    {
+      "id": "romblon_port",
+      "name": "Romblon Port",
+      "side": "romblon",
+      "municipalityId": "romblon",
+      "location": {
+        "lat": 12.58,
+        "lng": 122.27
+      },
+      "terminalFeePhp": 30,
+      "terminalFeeVerification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [
+        "ticket_office",
+        "waiting_area",
+        "restroom"
+      ]
+    },
+    {
+      "id": "magdiwang_port",
+      "name": "Magdiwang Port",
+      "side": "romblon",
+      "municipalityId": "magdiwang",
+      "location": {
+        "lat": 12.49,
+        "lng": 122.51
+      },
+      "terminalFeePhp": 30,
+      "terminalFeeVerification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [
+        "ticket_office",
+        "waiting_area",
+        "restroom"
+      ]
+    },
+    {
+      "id": "looc_port",
+      "name": "Looc Port",
+      "side": "romblon",
+      "municipalityId": "looc",
+      "location": {
+        "lat": 12.26,
+        "lng": 121.99
+      },
+      "terminalFeePhp": 30,
+      "terminalFeeVerification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [
+        "ticket_office",
+        "waiting_area",
+        "restroom"
+      ]
+    },
+    {
+      "id": "batangas_port",
+      "name": "Batangas Port",
+      "side": "mainland",
+      "location": {
+        "lat": 13.75,
+        "lng": 121.04
+      },
+      "terminalFeePhp": 30,
+      "terminalFeeVerification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [
+        "ticket_office",
+        "waiting_area",
+        "restroom"
+      ]
+    },
+    {
+      "id": "lucena_port",
+      "name": "Lucena Port (Dalahican)",
+      "side": "mainland",
+      "location": {
+        "lat": 13.9,
+        "lng": 121.62
+      },
+      "terminalFeePhp": 30,
+      "terminalFeeVerification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [
+        "ticket_office",
+        "waiting_area",
+        "restroom"
+      ]
+    },
+    {
+      "id": "banton_port",
+      "name": "Banton Port",
+      "side": "romblon",
+      "terminalFeePhp": 0,
+      "terminalFeeVerification": {
+        "source": "Terminal fee not known yet – needs checking",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [],
+      "municipalityId": "banton"
+    },
+    {
+      "id": "simara_port",
+      "name": "Simara Port",
+      "side": "romblon",
+      "terminalFeePhp": 0,
+      "terminalFeeVerification": {
+        "source": "Terminal fee not known yet – needs checking",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [],
+      "municipalityId": "corcuera"
+    },
+    {
+      "id": "cajidiocan_port",
+      "name": "Cajidiocan Port",
+      "side": "romblon",
+      "terminalFeePhp": 0,
+      "terminalFeeVerification": {
+        "source": "Terminal fee not known yet – needs checking",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": [],
+      "municipalityId": "cajidiocan"
+    },
+    {
+      "id": "sibuyan_tbc_port",
+      "name": "Sibuyan (port to be confirmed)",
+      "side": "romblon",
+      "terminalFeePhp": 0,
+      "terminalFeeVerification": {
+        "source": "Terminal fee not known yet – needs checking",
+        "isPlaceholder": true,
+        "lastVerified": null
+      },
+      "facilities": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "batangas_bus_terminal",
+      "name": "Batangas Port bus terminal",
+      "city": "Batangas City",
+      "portId": "batangas_port",
+      "location": {
+        "lat": 13.755,
+        "lng": 121.045
+      }
+    },
+    {
+      "id": "lucena_grand_terminal",
+      "name": "Lucena Grand Terminal",
+      "city": "Lucena City",
+      "portId": "lucena_port",
+      "location": {
+        "lat": 13.94,
+        "lng": 121.6
+      }
+    }
+  ]
+}

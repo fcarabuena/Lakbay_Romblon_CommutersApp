@@ -1,0 +1,137 @@
+{
+  "_note": "General advice for first-time travellers. Tagalog is a draft that needs native review.",
+  "items": [
+    {
+      "id": "fixers",
+      "category": "scam",
+      "title": {
+        "en": "Fixers and fake ticket sellers",
+        "fil": "Mga fixer at pekeng nagbebenta ng tiket"
+      },
+      "body": {
+        "en": "Some people outside ports offer to buy tickets for you or sell \"reserved\" seats. Buy only at the official ticket office or authorized outlets, and always get an official receipt.",
+        "fil": "May mga tao sa labas ng pantalan na nag-aalok na sila ang bibili ng tiket o nagbebenta ng \"reserved\" na upuan. Bumili lamang sa opisyal na ticket office o awtorisadong outlet, at laging humingi ng opisyal na resibo."
+      }
+    },
+    {
+      "id": "porters",
+      "category": "scam",
+      "title": {
+        "en": "Unofficial porters",
+        "fil": "Mga di-opisyal na porter"
+      },
+      "body": {
+        "en": "Someone may grab your bags and then ask for a big fee. If you need help, use accredited porters with IDs and agree on the price first.",
+        "fil": "Maaaring may kumuha ng inyong bag at saka hihingi ng malaking bayad. Kung kailangan ng tulong, gumamit ng accredited na porter na may ID at pagkasunduan muna ang presyo."
+      }
+    },
+    {
+      "id": "special_trips",
+      "category": "scam",
+      "title": {
+        "en": "Overpriced special trips",
+        "fil": "Sobrang mahal na special trip"
+      },
+      "body": {
+        "en": "A \"special trip\" tricycle or van carries only you, so it costs more. Ask for the regular fare and agree on the price before riding.",
+        "fil": "Ang \"special trip\" na tricycle o van ay para sa inyo lang, kaya mas mahal. Itanong ang regular na pamasahe at pagkasunduan ang presyo bago sumakay."
+      }
+    },
+    {
+      "id": "fake_cancellation",
+      "category": "scam",
+      "title": {
+        "en": "Fake \"cancelled trip\" stories",
+        "fil": "Pekeng balita na \"kanselado ang biyahe\""
+      },
+      "body": {
+        "en": "If someone says your trip is cancelled and offers another ride, check with the shipping line counter or the Coast Guard first.",
+        "fil": "Kung may magsabing kanselado ang inyong biyahe at mag-alok ng ibang sasakyan, magtanong muna sa counter ng shipping line o sa Coast Guard."
+      }
+    },
+    {
+      "id": "online_scams",
+      "category": "scam",
+      "title": {
+        "en": "Online ticket scams",
+        "fil": "Scam sa online na tiket"
+      },
+      "body": {
+        "en": "Book only through the shipping line's official website, app or page. Never send money to a personal account for tickets.",
+        "fil": "Mag-book lamang sa opisyal na website, app o page ng shipping line. Huwag magpadala ng pera sa personal na account para sa tiket."
+      }
+    },
+    {
+      "id": "life_jackets",
+      "category": "safety",
+      "title": {
+        "en": "Know where the life jackets are",
+        "fil": "Alamin kung nasaan ang life jacket"
+      },
+      "body": {
+        "en": "When you board, find the nearest life jackets and exits, and listen to the safety briefing.",
+        "fil": "Pagsakay, hanapin ang pinakamalapit na life jacket at labasan, at makinig sa safety briefing."
+      }
+    },
+    {
+      "id": "valuables",
+      "category": "safety",
+      "title": {
+        "en": "Keep valuables on you",
+        "fil": "Dalhin ang mahahalagang gamit"
+      },
+      "body": {
+        "en": "Keep your phone, cash and ID in a small bag you carry at all times, even when you sleep on the ship.",
+        "fil": "Ilagay ang cellphone, pera at ID sa maliit na bag na lagi ninyong dala, kahit natutulog sa barko."
+      }
+    },
+    {
+      "id": "tell_family",
+      "category": "safety",
+      "title": {
+        "en": "Tell someone your plan",
+        "fil": "Ipaalam sa pamilya ang plano"
+      },
+      "body": {
+        "en": "Before leaving, tell your family which ship and bus you will take and when you expect to arrive.",
+        "fil": "Bago umalis, sabihin sa pamilya kung anong barko at bus ang sasakyan at kailan inaasahang darating."
+      }
+    },
+    {
+      "id": "overloaded_boats",
+      "category": "safety",
+      "title": {
+        "en": "Do not board an overloaded boat",
+        "fil": "Huwag sumakay sa sobrang punong bangka"
+      },
+      "body": {
+        "en": "If a small boat looks overloaded or the sea is rough, wait for the next trip. Your safety comes first.",
+        "fil": "Kung mukhang sobrang puno ang maliit na bangka o malakas ang alon, hintayin ang susunod na biyahe. Kaligtasan muna."
+      }
+    },
+    {
+      "id": "cancelled_trip",
+      "category": "cancellation",
+      "title": {
+        "en": "If your trip is cancelled",
+        "fil": "Kung kanselado ang biyahe"
+      },
+      "body": {
+        "en": "Trips are cancelled when the weather is dangerous. Ask the shipping line about rebooking or refunds, keep your ticket, and check the app for other routes.",
+        "fil": "Kinakansela ang biyahe kapag mapanganib ang panahon. Magtanong sa shipping line tungkol sa rebooking o refund, itago ang tiket, at tingnan sa app ang ibang ruta."
+      }
+    },
+    {
+      "id": "stranded",
+      "category": "cancellation",
+      "title": {
+        "en": "If you are stranded",
+        "fil": "Kung na-stranded"
+      },
+      "body": {
+        "en": "Stay inside the port area, keep your phone charged, and ask Coast Guard or port staff for help. Call 911 in an emergency.",
+        "fil": "Manatili sa loob ng pantalan, panatilihing may charge ang cellphone, at humingi ng tulong sa Coast Guard o kawani ng pantalan. Tumawag sa 911 kung may emergency."
+      }
+    }
+  ]
+}

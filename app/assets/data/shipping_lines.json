@@ -1,0 +1,45 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "line_a",
+      "name": "Sample Shipping Line A",
+      "isPlaceholder": true
+    },
+    {
+      "id": "line_b",
+      "name": "Sample Shipping Line B",
+      "isPlaceholder": true
+    },
+    {
+      "id": "line_c",
+      "name": "Sample Shipping Line C",
+      "isPlaceholder": true
+    },
+    {
+      "id": "starhorse",
+      "name": "Starhorse Shipping Lines, Inc.",
+      "isPlaceholder": false,
+      "phones": [
+        "0995 515 9149",
+        "0995 515 9319",
+        "0948 548 0767",
+        "0915 951 0581"
+      ],
+      "office": "No. 20 San Antonio St., Lourdes Subd., Brgy. Isabang, Lucena City",
+      "website": "https://www.facebook.com/starhorseshippinglines"
+    },
+    {
+      "id": "starlite",
+      "name": "Starlite Ferries, Inc.",
+      "isPlaceholder": false,
+      "phones": [
+        "+63 936 868 7409",
+        "+63 927 487 7491"
+      ],
+      "contactLabel": "Starlite Cajidiocan office",
+      "website": "https://www.facebook.com/starliteferries",
+      "bookingUrl": "https://www.chelseatravel.ph/"
+    }
+  ]
+}

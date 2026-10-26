@@ -1,0 +1,20 @@
+rules_version = '2';
+
+// Guide photos and layout images: anyone can view; only admins and editors
+// (listed in Firestore "admins") upload or remove them.
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isStaff() {
+      return request.auth != null
+        && firestore.exists(/databases/(default)/documents/admins/$(request.auth.uid));
+    }
+
+    match /guides/{guideId}/{fileName} {
+      allow read: if true;
+      allow create, update: if isStaff()
+        && request.resource.size < 1024 * 1024
+        && request.resource.contentType.matches('image/(jpeg|png|webp)');
+      allow delete: if isStaff();
+    }
+  }
+}

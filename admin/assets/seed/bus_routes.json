@@ -1,0 +1,261 @@
+{
+  "_note": "PLACEHOLDER SAMPLE DATA. Operators, fares, schedules and times are invented for development and must be verified before release. Coordinates are approximate.",
+  "items": [
+    {
+      "id": "bus1_batangas_manila",
+      "operatorId": "bus_1",
+      "originId": "batangas_bus_terminal",
+      "firstTrip": "03:00",
+      "lastTrip": "21:00",
+      "headwayMinutes": 30,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "pitx",
+          "farePhp": 230,
+          "minutes": {
+            "min": 120,
+            "max": 210
+          }
+        },
+        {
+          "placeId": "buendia",
+          "farePhp": 250,
+          "minutes": {
+            "min": 150,
+            "max": 240
+          }
+        },
+        {
+          "placeId": "cubao",
+          "farePhp": 280,
+          "minutes": {
+            "min": 180,
+            "max": 300
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus2_batangas_manila",
+      "operatorId": "bus_2",
+      "originId": "batangas_bus_terminal",
+      "firstTrip": "04:00",
+      "lastTrip": "20:00",
+      "headwayMinutes": 60,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "pitx",
+          "farePhp": 240,
+          "minutes": {
+            "min": 120,
+            "max": 210
+          }
+        },
+        {
+          "placeId": "buendia",
+          "farePhp": 260,
+          "minutes": {
+            "min": 150,
+            "max": 240
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus3_lucena_manila",
+      "operatorId": "bus_3",
+      "originId": "lucena_grand_terminal",
+      "firstTrip": "00:00",
+      "lastTrip": "23:00",
+      "headwayMinutes": 30,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "buendia",
+          "farePhp": 380,
+          "minutes": {
+            "min": 180,
+            "max": 300
+          }
+        },
+        {
+          "placeId": "cubao",
+          "farePhp": 400,
+          "minutes": {
+            "min": 210,
+            "max": 330
+          }
+        },
+        {
+          "placeId": "pitx",
+          "farePhp": 370,
+          "minutes": {
+            "min": 180,
+            "max": 300
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus1_cubao_batangas",
+      "operatorId": "bus_1",
+      "originId": "cubao",
+      "firstTrip": "02:00",
+      "lastTrip": "21:00",
+      "headwayMinutes": 30,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "batangas_bus_terminal",
+          "farePhp": 280,
+          "minutes": {
+            "min": 180,
+            "max": 300
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus1_buendia_batangas",
+      "operatorId": "bus_1",
+      "originId": "buendia",
+      "firstTrip": "02:00",
+      "lastTrip": "21:00",
+      "headwayMinutes": 30,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "batangas_bus_terminal",
+          "farePhp": 250,
+          "minutes": {
+            "min": 150,
+            "max": 240
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus2_pitx_batangas",
+      "operatorId": "bus_2",
+      "originId": "pitx",
+      "firstTrip": "03:00",
+      "lastTrip": "20:00",
+      "headwayMinutes": 60,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "batangas_bus_terminal",
+          "farePhp": 240,
+          "minutes": {
+            "min": 120,
+            "max": 210
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus3_cubao_lucena",
+      "operatorId": "bus_3",
+      "originId": "cubao",
+      "firstTrip": "00:00",
+      "lastTrip": "23:00",
+      "headwayMinutes": 30,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "lucena_grand_terminal",
+          "farePhp": 400,
+          "minutes": {
+            "min": 210,
+            "max": 330
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus3_buendia_lucena",
+      "operatorId": "bus_3",
+      "originId": "buendia",
+      "firstTrip": "00:00",
+      "lastTrip": "23:00",
+      "headwayMinutes": 30,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "lucena_grand_terminal",
+          "farePhp": 380,
+          "minutes": {
+            "min": 180,
+            "max": 300
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    },
+    {
+      "id": "bus3_pitx_lucena",
+      "operatorId": "bus_3",
+      "originId": "pitx",
+      "firstTrip": "00:00",
+      "lastTrip": "23:00",
+      "headwayMinutes": 60,
+      "aircon": true,
+      "dropOffs": [
+        {
+          "placeId": "lucena_grand_terminal",
+          "farePhp": 370,
+          "minutes": {
+            "min": 180,
+            "max": 300
+          }
+        }
+      ],
+      "verification": {
+        "source": "PLACEHOLDER",
+        "isPlaceholder": true,
+        "lastVerified": null
+      }
+    }
+  ]
+}

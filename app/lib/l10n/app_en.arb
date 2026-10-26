@@ -1,0 +1,644 @@
+{
+  "@@locale": "en",
+  "appTitle": "Lakbay Romblon",
+  "navPlan": "Plan",
+  "navSchedules": "Schedules",
+  "navMore": "More",
+  "placeholderDataBanner": "Sample data only. Fares and schedules are not verified yet.",
+  "welcomeTitle": "Welcome to Lakbay Romblon",
+  "welcomeBody": "Plan your trip between Romblon and Metro Manila, door to door: local rides, ships, buses, and what to expect at each step.",
+  "welcomeSampleNotice": "This early version uses sample data. Always confirm fares and schedules with the shipping line or bus company.",
+  "welcomeStart": "Get started",
+  "plannerTitle": "Plan a trip",
+  "directionToManila": "To Manila",
+  "directionToRomblon": "Going home",
+  "hometownLabel": "Your hometown in Romblon",
+  "manilaEndTo": "Where in Metro Manila?",
+  "manilaEndFrom": "Leaving from (Metro Manila)",
+  "otherPlace": "Other place",
+  "customPlaceName": "Place name",
+  "customNearestHub": "Nearest bus hub",
+  "customFareLabel": "Your fare estimate for this part (₱, optional)",
+  "customMinutesLabel": "Your time estimate (minutes, optional)",
+  "departureLabel": "When are you leaving?",
+  "departureAny": "Any day (waiting time not included)",
+  "departurePick": "Pick date and time",
+  "departureClear": "Clear date",
+  "travellersLabel": "Travellers",
+  "passengerRegular": "Regular",
+  "passengerStudent": "Student",
+  "passengerSenior": "Senior citizen",
+  "passengerPwd": "PWD",
+  "decrease": "Fewer {type}",
+  "@decrease": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "increase": "More {type}",
+  "@increase": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "fareClassLabel": "Ship class",
+  "fareClassAny": "Cheapest available",
+  "fareClassEconomy": "Economy",
+  "fareClassTourist": "Tourist (air-conditioned)",
+  "fareClassCabin": "Cabin",
+  "findRoutes": "Find routes",
+  "errorPickHometown": "Please pick your hometown.",
+  "errorCustomName": "Please enter the place name.",
+  "errorNoTravellers": "Add at least one traveller.",
+  "errorNumber": "Enter a number, or leave it empty.",
+  "resultsTitle": "Routes",
+  "sortLabel": "Sort by",
+  "sortCheapest": "Cheapest",
+  "sortFastest": "Fastest",
+  "sortFewestTransfers": "Fewest transfers",
+  "noRoutes": "No routes found for this trip. Try another destination or ship class.",
+  "transfersCount": "{count, plural, =0{No transfers} =1{1 transfer} other{{count} transfers}}",
+  "@transfersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viaPorts": "{from} → {to}",
+  "@viaPorts": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "planDetailTitle": "Trip plan",
+  "planNotFound": "This route is no longer available. Please plan again.",
+  "planAgain": "Plan again",
+  "totalFare": "Fares",
+  "totalFees": "Terminal fees",
+  "totalCost": "Total",
+  "totalTime": "Door to door",
+  "arrivalWindow": "Arrive {earliest} – {latest}",
+  "@arrivalWindow": {
+    "placeholders": {
+      "earliest": {
+        "type": "String"
+      },
+      "latest": {
+        "type": "String"
+      }
+    }
+  },
+  "warningPlaceholder": "This estimate includes unverified sample values.",
+  "warningNoSchedule": "Waiting for departures is not included. Pick a date to include it.",
+  "warningMissingEstimate": "The last part of the trip has no fare estimate, so it is not in the total.",
+  "travellerCount": "{count, plural, =1{For 1 traveller} other{For {count} travellers}}",
+  "@travellerCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "legRide": "{mode}: {from} → {to}",
+  "@legRide": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "legShip": "Ship: {from} → {to}",
+  "@legShip": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "legBus": "Bus: {from} → {to}",
+  "@legBus": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "legCustom": "{from} → {to}",
+  "@legCustom": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "modeWalk": "Walk",
+  "modeTricycle": "Tricycle",
+  "modeJeepney": "Jeepney",
+  "modeVan": "Van",
+  "modeMulticab": "Multicab",
+  "modeHabalHabal": "Habal-habal",
+  "modePumpboat": "Pumpboat",
+  "modeTaxi": "Taxi",
+  "stopsAt": "Stops at {ports}",
+  "@stopsAt": {
+    "placeholders": {
+      "ports": {
+        "type": "String"
+      }
+    }
+  },
+  "departsAt": "Departs {time}",
+  "@departsAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkInNote": "Be at the port at least {minutes} min before departure",
+  "@checkInNote": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "waitTime": "Waiting: {range}",
+  "@waitTime": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "perTripFare": "per trip, shared",
+  "yourEstimate": "your own estimate",
+  "noEstimate": "no estimate",
+  "freeLeg": "Free",
+  "feeIncluded": "+ {amount} terminal fee per person",
+  "@feeIncluded": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "badgePlaceholder": "Sample, not verified",
+  "badgeVerified": "Verified {date}",
+  "@badgeVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "badgeStale": "Verified {date}, may be outdated",
+  "@badgeStale": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "badgeUserEstimate": "Your estimate",
+  "durationHoursMinutes": "{hours} h {minutes} min",
+  "@durationHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "durationHours": "{hours} h",
+  "@durationHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "durationMinutes": "{minutes} min",
+  "@durationMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "startFirstTimer": "First-Timer Mode",
+  "checkBudget": "Check my budget",
+  "saveTrip": "Save trip",
+  "tripSaved": "Trip saved to My trips.",
+  "firstTimerTitle": "First-Timer Mode",
+  "firstTimerProgress": "{done} of {total} done",
+  "@firstTimerProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "whatHappensNext": "What happens next",
+  "firstTimerAllDone": "All done. Have a safe trip!",
+  "firstTimerCurrent": "You are here",
+  "budgetTitle": "Budget planner",
+  "budgetCash": "How much money do you have? (₱)",
+  "budgetFoodPerMeal": "Food per meal, per person (₱)",
+  "budgetMeals": "Meals on the way",
+  "budgetExtras": "Other expenses (₱)",
+  "budgetExtrasHint": "Pasalubong, load, etc.",
+  "budgetBufferPercent": "Emergency buffer: {percent}%",
+  "@budgetBufferPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetBufferMinimum": "At least {amount}",
+  "@budgetBufferMinimum": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetManualFares": "Estimated fares (₱)",
+  "budgetManualFees": "Estimated terminal fees (₱)",
+  "budgetFromPlan": "Fares and fees come from your trip plan (higher estimate, to be safe).",
+  "budgetNoPlan": "No trip selected. Enter your own fare estimate, or plan a trip first.",
+  "budgetFares": "Fares",
+  "budgetFees": "Terminal fees",
+  "budgetFood": "Food",
+  "budgetOther": "Other expenses",
+  "budgetBuffer": "Emergency buffer",
+  "budgetNeeded": "You need",
+  "budgetYouHave": "You have",
+  "budgetLeftover": "Left over: {amount}",
+  "@budgetLeftover": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetShortBy": "Short by: {amount}",
+  "@budgetShortBy": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "budgetCovered": "Your money covers this trip.",
+  "budgetTight": "Enough for the trip, but your emergency buffer is low.",
+  "budgetShort": "Not enough for this trip yet.",
+  "schedulesTitle": "Schedules",
+  "tabShips": "Ships",
+  "tabBuses": "Buses",
+  "filterPort": "Port",
+  "allPorts": "All ports",
+  "everyDay": "Every day",
+  "sailingDays": "Sails: {days}",
+  "@sailingDays": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "voyageStops": "Stops",
+  "fareTable": "Fares (per person, regular)",
+  "checkIn": "Check-in",
+  "busHours": "{first} – {last}, about every {minutes} min",
+  "@busHours": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "dropOffs": "Drop-off points",
+  "aircon": "Air-conditioned",
+  "noSchedules": "No schedules for this port.",
+  "dayLater": "+{days} day",
+  "@dayLater": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "tripsTitle": "My trips",
+  "noTrips": "No saved trips yet. Plan a trip and tap Save trip.",
+  "deleteTrip": "Delete trip",
+  "moreTitle": "More",
+  "aboutTitle": "About and data",
+  "aboutBody": "Lakbay Romblon helps travellers from Romblon get to Metro Manila and back home, with local rides, ships and buses in one plan.",
+  "aboutDisclaimer": "Fares, schedules and travel times change often. Every value shows when it was last verified. Values marked as samples are not real yet. Always confirm with the operator.",
+  "dataVersion": "Data version {version}",
+  "@dataVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "dataPrepared": "Data prepared {date}",
+  "@dataPrepared": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "loadError": "Could not load travel data.",
+  "retry": "Try again",
+  "navGuide": "Guide",
+  "navSafety": "Safety",
+  "myTrips": "My trips",
+  "guideTitle": "Pier and terminal guides",
+  "guidePorts": "Ports",
+  "guideTerminals": "Bus terminals",
+  "useMyLocation": "Use my location",
+  "locating": "Finding your location…",
+  "locationDenied": "Location permission was not given. You can still use every guide.",
+  "locationOff": "Location is turned off on your phone.",
+  "locationError": "Could not get your location.",
+  "locationPrivacy": "Your location stays on your phone.",
+  "distanceKm": "{km} km away",
+  "@distanceKm": {
+    "placeholders": {
+      "km": {
+        "type": "String"
+      }
+    }
+  },
+  "nearestBadge": "Nearest",
+  "tabLayout": "Layout",
+  "tabMap": "Map",
+  "tabTips": "Tips",
+  "layoutIllustrative": "Illustrative layout, not to scale. Verify on site.",
+  "layoutAreas": "Areas",
+  "seaSide": "Sea",
+  "mapNeedsInternet": "The map needs internet. Without a connection, use the Layout tab.",
+  "mapTilesFailed": "Map tiles could not load. Check your connection or use the Layout tab.",
+  "myLocation": "My location",
+  "noLocationForPlace": "This place has no map location yet.",
+  "photosTitle": "Photos",
+  "noPhotos": "No photos yet.",
+  "noGuide": "No guide for this place yet.",
+  "safetyTitle": "Safety",
+  "emergencyCallout": "In an emergency, call 911.",
+  "hotlinesTitle": "Emergency hotlines",
+  "hotlinesNational": "National",
+  "hotlinesProvince": "Romblon province",
+  "hotlinesPorts": "Ports",
+  "hotlinesTowns": "Towns",
+  "hotlinesYourTown": "Your hometown",
+  "callNumber": "Call {number}",
+  "@callNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "numberNeeded": "Number needed",
+  "hotlineUnverified": "Not yet verified. Confirm before relying on it.",
+  "callFailed": "Could not open the phone dialer.",
+  "scamTitle": "Scam warnings",
+  "safetyTipsTitle": "Safety tips",
+  "cancellationTitle": "If your trip is cancelled",
+  "sosTitle": "Show this to staff",
+  "sosBody": "I am travelling from {from} to {to}. Please help me find my ship or bus.",
+  "@sosBody": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "sosNoTrip": "Plan a trip to see your trip summary here.",
+  "settingsTitle": "Settings",
+  "languageLabel": "Language",
+  "languageSystem": "Phone default",
+  "translationDraft": "draft, needs review",
+  "translationInProgress": "translation in progress",
+  "textSizeLabel": "Text size",
+  "textSizeNormal": "Normal",
+  "textSizeLarge": "Large",
+  "textSizeExtraLarge": "Extra large",
+  "textSizePreview": "This is how text will look.",
+  "privacyTitle": "Privacy",
+  "privacyBody": "Your trips, checklist progress and location stay on your phone. Map images come from OpenStreetMap, and travel updates and photos from Google Firebase. Reports you send have no name or number attached. Advisory alerts are off unless you turn them on.",
+  "advisoriesTitle": "Advisories",
+  "advisoriesActive": "In effect now",
+  "advisoriesUpcoming": "Coming up",
+  "advisoriesEnded": "Recently ended",
+  "advisoriesNone": "No advisories right now.",
+  "advisoriesMore": "+{count} more",
+  "@advisoriesMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "advisoryConfirm": "Always confirm with the Coast Guard or shipping line before travelling.",
+  "advisoryFrom": "From {date}",
+  "@advisoryFrom": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "advisoryGone": "This advisory is no longer available.",
+  "advisoryHasEnded": "This advisory has ended.",
+  "advisoryValidFrom": "Starts",
+  "advisoryValidUntil": "Ends",
+  "advisoryUntilFurtherNotice": "Until further notice",
+  "advisorySource": "Source",
+  "advisoryPublished": "Published",
+  "advisoryAffects": "Affected trips",
+  "advisoryAllTrips": "All sea trips in Romblon",
+  "severitySuspended": "Suspended",
+  "severityCaution": "Caution",
+  "severityInfo": "Notice",
+  "tripAffected": "Advisory: {title}",
+  "@tripAffected": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "resultsAdvisoryNotice": "Some trips are affected by an advisory.",
+  "resultsAvoidAdvisories": "Show only trips that avoid it",
+  "resultsCannotAvoid": "It covers all sea trips, so there is no way around it. Wait for the advisory to end.",
+  "noRoutesAvoiding": "No trips avoid the advisory. Turn off the filter to see all trips.",
+  "reportUpdate": "Report an update",
+  "reportTitle": "Report an update",
+  "reportAbout": "About",
+  "reportWhat": "What changed?",
+  "reportKindFare": "Fare changed",
+  "reportKindSchedule": "Schedule changed",
+  "reportKindDelay": "Delay or cancellation",
+  "reportKindWrong": "Wrong information",
+  "reportKindOther": "Something else",
+  "reportSuggested": "Correct value (optional)",
+  "reportSuggestedHint": "e.g. ₱720, or leaves 19:30",
+  "reportNote": "Details (optional)",
+  "reportNoteHint": "What did you see, and when?",
+  "reportNeedsText": "Add the correct value or some details.",
+  "reportPrivacy": "No name or phone number needed. Please don't include personal details. An admin checks every report before anything changes.",
+  "reportSend": "Send report",
+  "reportSent": "Thank you! Your report was sent for review.",
+  "reportQueued": "Saved. It will be sent when you are online.",
+  "reportLimit": "You've sent the most reports allowed today. It will be sent tomorrow.",
+  "myReportsTitle": "My reports",
+  "myReportsSubtitle": "Updates you sent and their status",
+  "myReportsNone": "You haven't sent any reports yet.",
+  "reportStatusWaiting": "Waiting to send",
+  "reportStatusPending": "Sent, waiting for review",
+  "reportStatusApproved": "Approved, thank you!",
+  "reportStatusRejected": "Not used",
+  "reportRejectReason": "Reason: {reason}",
+  "@reportRejectReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "photoLoading": "Loading photo…",
+  "photoUnavailable": "Photo not available offline yet",
+  "photoNumber": "Photo {number}",
+  "@photoNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "photoCredit": "Photo: {credit}",
+  "@photoCredit": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      }
+    }
+  },
+  "photosSaveOffline": "Save photos for offline",
+  "photosSaved": "Photos saved on this phone",
+  "photosSaveFailed": "Some photos could not be saved. Try again on Wi-Fi.",
+  "photosMobileDataTitle": "Use mobile data?",
+  "photosMobileDataBody": "You are on mobile data. Download {count} photos (up to 200 KB each)?",
+  "@photosMobileDataBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "photosDownload": "Download",
+  "cancel": "Cancel",
+  "dataTitle": "Travel data",
+  "dataLastUpdated": "Last updated {date}",
+  "@dataLastUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dataNeverUpdated": "Using the data that came with the app.",
+  "syncNow": "Refresh now",
+  "syncUpdated": "Travel data updated.",
+  "syncUpToDate": "Already up to date.",
+  "syncFailed": "Couldn't refresh. Check your internet and try again.",
+  "syncNotConfigured": "Online updates are not set up in this version.",
+  "alertsTitle": "Advisory alerts",
+  "alertsEnable": "Alert me about suspensions and cautions",
+  "alertsExplain": "Only for trips being suspended or needing caution. You can turn this off anytime.",
+  "alertsAllRomblon": "All of Romblon",
+  "alertsChosenPorts": "Only these ports",
+  "alertsPermissionDenied": "Notifications are off for this app. Turn them on in your phone settings.",
+  "alertsFailed": "Couldn't update alerts. Check your internet and try again.",
+  "fareClassComfort": "Comfort (reclining seat)",
+  "fareClassPremium": "Premium (air-conditioned)",
+  "fareClassReclining": "Reclining seat",
+  "fareClassEconomyBed": "Economy bed",
+  "fareClassTouristBed": "Tourist bed",
+  "fareClassVipRoom": "VIP room",
+  "timeToConfirm": "To be confirmed",
+  "timeEstimateSuffix": "(estimate)",
+  "timesToConfirmNotice": "Some days or times for this trip are not confirmed yet. Ask the shipping line before you travel.",
+  "priceHalfFare": "Half fare (ask the shipping line who qualifies)",
+  "priceMinor": "Minor (2–11 years)",
+  "priceInfant": "Infant (under 2 years)",
+  "roomPrice": "{price} per room (for {count} people)",
+  "@roomPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "discountPricesLabel": "Discount prices",
+  "contactTitle": "Contact the shipping line",
+  "officeLabel": "Office: {address}",
+  "@officeLabel": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "openOfficialPage": "Official page",
+  "openBooking": "Book online"
+}

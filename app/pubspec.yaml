@@ -1,0 +1,45 @@
+name: lakbayromblon
+description: "Lakbay Romblon - inter-island travel companion"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+resolution: workspace
+
+environment:
+  sdk: ^3.13.7
+dependencies:
+  cached_network_image: ^4.0.5
+  cloud_firestore: ^7.1.0
+  connectivity_plus: ^7.3.1
+  firebase_auth: ^7.0.1
+  firebase_core: ^5.1.0
+  firebase_messaging: ^17.0.1
+  flutter:
+    sdk: flutter
+  flutter_cache_manager: ^3.4.5
+  flutter_localizations:
+    sdk: flutter
+  flutter_map: ^8.3.2
+  flutter_riverpod: ^3.4.3
+  geolocator: ^14.1.2
+  go_router: ^18.1.1
+  intl: ^0.20.3
+  lakbay_core:
+    path: ../packages/core
+  lakbay_ui:
+    path: ../packages/ui
+  latlong2: ^0.10.1
+  package_info_plus: ^10.2.2
+  path: ^1.9.1
+  sqflite: ^2.4.5
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.4.5
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/data/
