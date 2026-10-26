@@ -46,6 +46,7 @@ class AuditedWrite {
     required this.after,
     this.reportId,
     this.note,
+    this.restore = false,
   });
 
   /// A travel collection, or `config` for `config/meta`.
@@ -59,7 +60,12 @@ class AuditedWrite {
   final String? reportId;
   final String? note;
 
-  String get action => after == null
+  /// Putting back an item deleted earlier (from the change log).
+  final bool restore;
+
+  String get action => restore
+      ? 'restore'
+      : after == null
       ? 'delete'
       : before == null
       ? 'create'

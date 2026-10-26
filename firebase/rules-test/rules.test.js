@@ -135,6 +135,37 @@ test('travellers and anonymous users cannot write data', async () => {
   await assertFails(setDoc(doc(anon(), 'ports/p1'), { name: 'x' }));
 });
 
+test('a delete (deleted: true) needs its change-log entry, like any edit', async () => {
+  const db = as('editor1');
+  await assertFails(setDoc(doc(db, 'ports/p1'), {
+    id: 'p1', name: 'Port 1', deleted: true,
+    updatedAt: serverTimestamp(), updatedBy: 'editor1', auditId: 'no-entry',
+  }));
+  const batch = writeBatch(db);
+  batch.set(doc(db, 'ports/p1'), {
+    id: 'p1', name: 'Port 1', deleted: true,
+    updatedAt: serverTimestamp(), updatedBy: 'editor1', auditId: 'del-1',
+  });
+  batch.set(doc(db, 'audit_log/del-1'), {
+    uid: 'editor1', action: 'delete', at: serverTimestamp(), collection: 'ports', docId: 'p1',
+    before: { id: 'p1', name: 'Port 1' }, after: null,
+  });
+  await assertSucceeds(batch.commit());
+});
+
+test('restoring is logged with the restore action', async () => {
+  const db = as('admin1');
+  const batch = writeBatch(db);
+  batch.set(doc(db, 'ports/p1'), {
+    id: 'p1', name: 'Port 1', updatedAt: serverTimestamp(), updatedBy: 'admin1', auditId: 'res-1',
+  });
+  batch.set(doc(db, 'audit_log/res-1'), {
+    uid: 'admin1', action: 'restore', at: serverTimestamp(), collection: 'ports', docId: 'p1',
+    before: null, after: { id: 'p1', name: 'Port 1' }, note: 'Restored from the change log',
+  });
+  await assertSucceeds(batch.commit());
+});
+
 test('travel documents are never hard-deleted', async () => {
   await assertFails(deleteDoc(doc(as('admin1'), 'ports/p1')));
 });

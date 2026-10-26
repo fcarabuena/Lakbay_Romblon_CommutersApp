@@ -6,6 +6,7 @@ import 'package:lakbay_ui/lakbay_ui.dart';
 
 import '../state/providers.dart';
 import 'collection_specs.dart';
+import 'delete_flow.dart';
 import 'edit_logic.dart';
 
 class CollectionListScreen extends ConsumerStatefulWidget {
@@ -116,9 +117,19 @@ class _CollectionListScreenState extends ConsumerState<CollectionListScreen> {
                       ? _hotlineStatus(e.item, e.state)
                       : e.id,
                 ),
-                trailing: _StateChip(
-                  e.state,
-                  checkedOn: _checkedOn(spec, e.item),
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    _StateChip(e.state, checkedOn: _checkedOn(spec, e.item)),
+                    IconButton(
+                      key: Key('deleteRow-${e.id}'),
+                      tooltip: 'Delete ${e.title}',
+                      color: Theme.of(context).colorScheme.error,
+                      icon: const Icon(Icons.delete_outline),
+                      onPressed: () =>
+                          confirmAndDelete(context, ref, spec, e.id),
+                    ),
+                  ],
                 ),
                 onTap: () => context.go(
                   '/data/${spec.collection}/${Uri.encodeComponent(e.id)}',

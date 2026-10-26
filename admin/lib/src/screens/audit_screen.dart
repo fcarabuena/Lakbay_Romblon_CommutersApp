@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 
+import '../backend/admin_backend.dart';
 import '../editing/collection_specs.dart';
+import '../editing/delete_flow.dart';
 import '../state/providers.dart';
 
 final _date = DateFormat('d MMM y, HH:mm');
@@ -26,6 +28,18 @@ class _AuditScreenState extends ConsumerState<AuditScreen> {
     final entries = ref.watch(auditProvider(_collection));
     final isAdmin = ref.watch(currentStaffProvider).isAdmin;
     final theme = Theme.of(context);
+
+    Future<void> restore(AuditEntry entry) async {
+      final messenger = ScaffoldMessenger.of(context);
+      final problem = await restoreFromLog(ref, entry);
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            problem ?? 'Restored. Phones get it back at their next update.',
+          ),
+        ),
+      );
+    }
 
     Future<void> delete(String id) async {
       final ok = await showDialog<bool>(
@@ -112,11 +126,23 @@ class _AuditScreenState extends ConsumerState<AuditScreen> {
                       if (isAdmin)
                         Align(
                           alignment: Alignment.centerRight,
-                          child: TextButton.icon(
-                            key: Key('deleteAudit-${e.id}'),
-                            onPressed: () => delete(e.id),
-                            icon: const Icon(Icons.delete_outline),
-                            label: const Text('Delete entry'),
+                          child: Wrap(
+                            spacing: 8,
+                            children: [
+                              if (e.action == 'delete' && e.before != null)
+                                FilledButton.icon(
+                                  key: Key('restore-${e.id}'),
+                                  onPressed: () => restore(e),
+                                  icon: const Icon(Icons.restore),
+                                  label: const Text('Restore'),
+                                ),
+                              TextButton.icon(
+                                key: Key('deleteAudit-${e.id}'),
+                                onPressed: () => delete(e.id),
+                                icon: const Icon(Icons.delete_outline),
+                                label: const Text('Delete entry'),
+                              ),
+                            ],
                           ),
                         ),
                     ],

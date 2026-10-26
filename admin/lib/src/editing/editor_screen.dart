@@ -9,6 +9,7 @@ import '../backend/dataset.dart';
 import '../photos/photo_upload_dialog.dart';
 import '../state/providers.dart';
 import 'collection_specs.dart';
+import 'delete_flow.dart';
 import 'edit_logic.dart';
 import 'form_fields.dart';
 
@@ -130,45 +131,11 @@ class _EditorScreenState extends ConsumerState<EditorScreen> {
     );
   }
 
-  Future<void> _delete(Dataset data) async {
-    final problems = checkDelete(_spec, data, widget.docId!);
-    if (problems.isNotEmpty) {
-      setState(
-        () => _problems = ['Cannot delete: other data uses it', ...problems],
-      );
-      return;
+  Future<void> _delete() async {
+    final router = GoRouter.of(context);
+    if (await confirmAndDelete(context, ref, _spec, widget.docId!)) {
+      router.go('/data/${widget.collection}');
     }
-    final ok = await showDialog<bool>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: Text('Delete this ${_spec.singular}?'),
-        content: const Text(
-          'Phones remove it at their next sync. The change log keeps a copy.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('Cancel'),
-          ),
-          FilledButton(
-            key: const Key('confirmDelete'),
-            onPressed: () => Navigator.pop(context, true),
-            child: const Text('Delete'),
-          ),
-        ],
-      ),
-    );
-    if (ok != true) return;
-    await _write(
-      AuditedWrite(
-        collection: widget.collection,
-        docId: widget.docId!,
-        auditId: ref.read(idGeneratorProvider)(),
-        before: _before,
-        after: null,
-      ),
-      message: 'Deleted',
-    );
   }
 
   Future<void> _write(AuditedWrite write, {required String message}) async {
@@ -341,7 +308,14 @@ class _EditorScreenState extends ConsumerState<EditorScreen> {
               if (widget.docId != null)
                 OutlinedButton.icon(
                   key: const Key('delete'),
-                  onPressed: _saving ? null : () => _delete(data),
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: theme.colorScheme.error,
+                    side: BorderSide(
+                      color: theme.colorScheme.error,
+                      width: 1.5,
+                    ),
+                  ),
+                  onPressed: _saving ? null : _delete,
                   icon: const Icon(Icons.delete_outline),
                   label: const Text('Delete'),
                 ),

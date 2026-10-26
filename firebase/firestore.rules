@@ -80,7 +80,7 @@ service cloud.firestore {
       allow create: if isStaff()
         && request.resource.data.uid == request.auth.uid
         && request.resource.data.at == request.time
-        && request.resource.data.action in ['create', 'update', 'delete', 'review', 'users']
+        && request.resource.data.action in ['create', 'update', 'delete', 'restore', 'review', 'users']
         && request.resource.data.collection is string
         && request.resource.data.docId is string
         && request.resource.data.keys().hasOnly(

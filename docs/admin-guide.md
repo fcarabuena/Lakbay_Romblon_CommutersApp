@@ -97,6 +97,16 @@ signboard map. See `docs/guide-layout-format.md`.
 
 A report never changes data by itself.
 
+## Deleting and restoring
+
+- Delete an item with the red **Delete** button on its page, or the trash icon on its row in the list.
+- The panel asks first, using the item's name: *"Delete Odiongan Port? This removes it from the app for everyone."*
+- If other data still uses the item, it is not deleted. The panel says what uses it, e.g.
+  *"3 voyages and 12 fares use this port. Delete or change those first."*
+- Phones drop a deleted item the next time they update their travel data.
+- Every delete is recorded in the change log with who did it and a full copy of the item.
+  **Admins** can open that entry and press **Restore** to put it back.
+
 ## Change log
 
 Every save is recorded: who, when, and the values before and after. Open an entry to see
